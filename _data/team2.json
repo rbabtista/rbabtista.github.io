@@ -1,0 +1,98 @@
+{
+  "members": [
+    {
+      "name": "Yongqin Yu",
+      "role": "Two Rivers Fisheries",
+      "avatar_image": "/assets/img/avatars/avatar.webp",
+      "avatar_image2x": "/assets/img/avatars/avatar.webp",
+      "bio_image": "/assets/img/avatars/avatar.webp",
+      "bio_image2x": "/assets/img/avatars/avatar.webp",
+      "social": [
+        {
+          "url": "https://www.tworiversfisheries.com/",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "name": "Joyce Liti Njenga",
+      "role": "Lecturer",
+      "bio": "Joyce Liti Njenga is a Senior Research Scientist, Fisheries and Aquaculture at Jomo Kenyatta University of Agriculture & Technology. Her work focuses on training and research in Fisheries and Aquaculture. She conducts workshops for small and medium scale farmers in Kenya to reduce poverty and improve local livelihoods. She has also been involved with the Food and Agriculture Organization and World Vision to address gender inclusivity in fisheries. She has also been instrumental in training county officers on fisheries and aquaculture techniques across Kenya. Joyce is passionate about skills development and knowledge dissemination which has shown to reduce unemployment, increase productivity, and improve standards of living.",
+      "avatar_image": "/assets/img/avatars/avatar.webp",
+      "avatar_image2x": "/assets/img/avatars/avatar.webp",
+      "bio_image": "/assets/img/avatars/avatar.webp",
+      "bio_image2x": "/assets/img/avatars/avatar.webp",
+      "social": [
+        {
+          "url": "https://www.jkuat.ac.ke/",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "name": "Mary Muchiri",
+      "role": "Registered Nurse",
+      "bio": "I’m a registered nurse from Kenya with over 24 years of experience providing high quality, patient centered care across diverse health care settings such as medical surgical nursing, operating room nursing, and trauma care. I have a proven ability to assess, implement, and evaluate individual care while ensuring patient safety and comfort. I’m a teacher and a mentor to nursing students and young nurses in the profession. I’ve been a reviewer for the perioperative nurse training curriculum at Kenya Medical Training College, on the assessment and approval team of Kenyatta University referral hospital perioperative training, a student clinical instructor at Kenyatta National Hospital, the largest referral hospital in East Africa, and a part time lecturer at the Kenya Medical Training College.",
+      "avatar_image": "/assets/img/avatars/mary.webp",
+      "avatar_image2x": "/assets/img/avatars/mary.webp",
+      "bio_image": "/assets/img/avatars/mary.webp",
+      "bio_image2x": "/assets/img/avatars/mary.webp",
+      "social": []
+    },
+    {
+      "name": "Dr. Ann Marty",
+      "bio": "Dr. Ann Marty is a retired Family Physician from St. Genevieve, MO. She earned an MD at the University of Missouri and then completed her residency in Family Medicine at Duke University.  Ann worked for more than 30 years for Carle Clinic and Physician Group in Monticello, Illinois. During her years in practice, Ann developed an interest in alternative and complementary medicine and was a strong proponent of healthy living and disease prevention. She is a member of International Assist Medical Missions (IAMM) and has participated in short-term medical trips to Haiti, the Dominican Republic, Nicaragua, and Kenya.",
+      "role": "",
+      "avatar_image": "/assets/img/avatars/ann.webp",
+      "avatar_image2x": "/assets/img/avatars/ann.webp",
+      "bio_image": "/assets/img/avatars/ann.webp",
+      "bio_image2x": "/assets/img/avatars/ann.webp",
+      "social": [
+      ]
+    },
+    {
+      "name": "Dr. Kiruba Krishnaswamy",
+      "role": "Food Technologist, University of Missouri",
+      "bio": "Kiruba Krishnaswamy is an associate professor in the Department of Chemical and Biomedical Engineering with a joint appointment at the Division of Food, Nutrition and Exercise Sciences. She holds the MU Pillars of Pursuit – Food Sustainability joint position in the College of Engineering and the College of Agriculture, Food and Natural Resources (CAFNR) at the University of Missouri. Krishnaswamy leads the Food Engineering and Sustainable Technologies (FEAST) research program to address the interconnected challenges of food and nutrition security.",
+      "avatar_image": "/assets/img/avatars/kiruba.webp",
+      "avatar_image2x": "/assets/img/avatars/kiruba.webp",
+      "bio_image": "/assets/img/avatars/kiruba.webp",
+      "bio_image2x": "/assets/img/avatars/kiruba.webp",
+      "social": [
+        {
+          "url": "https://engineering.missouri.edu/faculty/kiruba-krishnaswamy/",
+          "icon": "uil uil-globe"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Azlin Mustapha",
+      "role": "Microbiologist, University of Missouri",
+      "bio": "Azlin Mustapha’s research focusses on development of molecular, biological and analytical methods for food pathogen detection, and studying novel materials as antimicrobial agents. Specific examples include rapid PCR-based detection methods, applications of nanomaterials as antimicrobial agents and detection tools, and green syntheses of nanoparticles. In addition, her research also investigates the toxicity of nanomaterials and their application in food packaging and food contact surfaces.",
+      "avatar_image": "/assets/img/avatars/azlin.webp",
+      "avatar_image2x": "/assets/img/avatars/azlin.webp",
+      "bio_image": "/assets/img/avatars/azlin.webp",
+      "bio_image2x": "/assets/img/avatars/azlin.webp",
+      "social": [
+        {
+          "url": "https://cafnr.missouri.edu/people/azlin-mustapha/",
+          "icon": "uil uil-globe"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Chung-ho Lin",
+      "role": "Metabolomics, University of Missouri",
+      "avatar_image": "/assets/img/avatars/chungho.webp",
+      "avatar_image2x": "/assets/img/avatars/chungho.webp",
+      "bio_image": "/assets/img/avatars/chungho.webp",
+      "bio_image2x": "/assets/img/avatars/chungho.webp",
+      "social": [
+        {
+          "url": "https://cafnr.missouri.edu/directory/chung-ho-lin/",
+          "icon": "uil uil-globe"
+        }
+      ]
+    }
+  ]
+}

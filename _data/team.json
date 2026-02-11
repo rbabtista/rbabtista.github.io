@@ -1,0 +1,49 @@
+{
+  "members": [
+    {
+      "name": "Dr. Mark Morgan",
+      "role": "Founder & President",
+      "bio": "Dr. Mark Morgan is Founder and President of Wish Upon a Fish, a US-based nonprofit that addresses malnutrition using fish protein powder to fortify the diets of women and children in developing countries. Dr. Morgan authored the award-winning book, Something’s Fishy, a children’s story on creative solutions for invasive species. A former Fulbright scholar, Mark retired from his faculty position in the School of Natural Resources at the University of Missouri in 2023.",
+      "avatar_image": "/assets/img/avatars/markmorgan.webp",
+      "avatar_image2x": "/assets/img/avatars/markmorgan.webp",
+      "bio_image": "/assets/img/avatars/markmorgan.webp",
+      "bio_image2x": "/assets/img/avatars/markmorgan.webp",
+      "social": [
+        {
+          "url": "https://scholar.google.com/citations?user=p592BHcAAAAJ",
+          "icon": "uil uil-dribbble"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Martin Nandelenga",
+      "role": "Co-Founder & Vice President",
+      "bio": "Martin Wafula Nandelenga is an economist with over 15 years of experience in academia and public policy research. Currently, he is a Senior Policy Analyst at the Kenya Institute for Public Policy Research and Analysis (KIPPRA), Nairobi, Kenya.",
+      "avatar_image": "/assets/img/avatars/martinnandelenga.webp",
+      "avatar_image2x": "/assets/img/avatars/martinnandelenga.webp",
+      "bio_image": "/assets/img/avatars/martinnandelenga.webp",
+      "bio_image2x": "/assets/img/avatars/martinnandelenga.webp",
+      "social": [
+        {
+          "url": "https://www.afdb.org/en",
+          "icon": "uil uil-dribbble"
+        }
+      ]
+    },
+    {
+      "name": "Brian Ryckbost",
+      "role": "Secretary",
+      "avatar_image": "/assets/img/avatars/brianryckbost.webp",
+      "avatar_image2x": "/assets/img/avatars/brianryckbost.webp",
+      "bio_image": "/assets/img/avatars/brianryckbost.webp",
+      "bio_image2x": "/assets/img/avatars/brianryckbost.webp",
+      "social": [
+        {
+          "url": "https://www.enagonllc.com/",
+          "icon": "uil uil-dribbble"
+        }
+      ]
+    }
+  ]
+}
+  
