@@ -11,7 +11,7 @@
       "social": [
         {
           "url": "https://scholar.google.com/citations?user=p592BHcAAAAJ",
-          "icon": "uil uil-dribbble"
+          "icon": "uil uil-globe"
         }
       ]
     },
@@ -26,7 +26,7 @@
       "social": [
         {
           "url": "https://www.afdb.org/en",
-          "icon": "uil uil-dribbble"
+          "icon": "uil uil-globe"
         }
       ]
     },
@@ -40,7 +40,36 @@
       "social": [
         {
           "url": "https://www.enagonllc.com/",
-          "icon": "uil uil-dribbble"
+          "icon": "uil uil-globe"
+        }
+      ]
+    },
+    {
+      "name": "Yongqin Yu",
+      "role": "Business Development Specialist",
+      "avatar_image": "/assets/img/avatars/avatar.webp",
+      "avatar_image2x": "/assets/img/avatars/avatar.webp",
+      "bio_image": "/assets/img/avatars/avatar.webp",
+      "bio_image2x": "/assets/img/avatars/avatar.webp",
+      "social": [
+        {
+          "url": "https://www.tworiversfisheries.com/",
+          "icon": "uil uil-globe"
+        }
+      ]
+    },
+    {
+      "name": "Joyce Liti Njenga",
+      "role": "Fisheries Specialist",
+      "bio": "Joyce Liti Njenga is a Senior Research Scientist, Fisheries and Aquaculture at Jomo Kenyatta University of Agriculture & Technology. Her work focuses on training and research in Fisheries and Aquaculture. She conducts workshops for small and medium scale farmers in Kenya to reduce poverty and improve local livelihoods. She has also been involved with the Food and Agriculture Organization and World Vision to address gender inclusivity in fisheries. She has also been instrumental in training county officers on fisheries and aquaculture techniques across Kenya. Joyce is passionate about skills development and knowledge dissemination which has shown to reduce unemployment, increase productivity, and improve standards of living.",
+      "avatar_image": "/assets/img/avatars/joyce.webp",
+      "avatar_image2x": "/assets/img/avatars/joyce.webp",
+      "bio_image": "/assets/img/avatars/joyce.webp",
+      "bio_image2x": "/assets/img/avatars/joyce.webp",
+      "social": [
+        {
+          "url": "https://www.jkuat.ac.ke/",
+          "icon": "uil uil-globe"
         }
       ]
     }

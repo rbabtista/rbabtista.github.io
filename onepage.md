@@ -138,7 +138,6 @@ footer:
   bg_color: "bg-dark"
   text_color: "text-inverse"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-gray">
 {% include components/navbar/navbar.html 
@@ -164,9 +163,9 @@ footer:
 {% include components/sections/onepage/testimonials.html %}
 {% include components/sections/onepage/contact.html %}
 
-{% include components/footer/footer.html
-style="default"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="default"
+  bg_color="bg-dark" 
+  text_color="text-inverse"
 %}
 </div>

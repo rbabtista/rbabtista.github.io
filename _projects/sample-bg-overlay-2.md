@@ -23,20 +23,10 @@ carousel_images:
   - "/assets/img/photos/pp45.webp"
 ---
 
-"Urban Geometries" is a fashion editorial that juxtaposes avant-garde couture against the stark lines and textures of
-contemporary architecture. Shot across five iconic modern buildings, the series explores how fashion and architecture
-speak a common language of form, structure, and innovation.
+"Urban Geometries" is a fashion editorial that juxtaposes avant-garde couture against the stark lines and textures of contemporary architecture. Shot across five iconic modern buildings, the series explores how fashion and architecture speak a common language of form, structure, and innovation.
 
-Working with stylist Maria Chen, we selected pieces from cutting-edge designers whose work echoes architectural
-principles—structural garments from Issey Miyake, geometric patterns from Mary Katrantzou, and deconstructed silhouettes
-from Maison Margiela. Each look was carefully curated to either complement or intentionally contrast with its
-architectural setting.
+Working with stylist Maria Chen, we selected pieces from cutting-edge designers whose work echoes architectural principles—structural garments from Issey Miyake, geometric patterns from Mary Katrantzou, and deconstructed silhouettes from Maison Margiela. Each look was carefully curated to either complement or intentionally contrast with its architectural setting.
 
-The lighting approach combined natural and artificial sources to create dramatic interplays between light and shadow,
-emphasizing both the architectural features and the garments' construction. We employed long exposures during blue hour
-to capture the transition between day and night, adding an element of time to the visual narrative.
+The lighting approach combined natural and artificial sources to create dramatic interplays between light and shadow, emphasizing both the architectural features and the garments' construction. We employed long exposures during blue hour to capture the transition between day and night, adding an element of time to the visual narrative.
 
-This editorial represents a departure from traditional fashion photography, prioritizing the relationship between body,
-clothing, and built environment over conventional beauty standards. The resulting images have been published in Vogue's
-annual architecture special issue and have been acquired for the permanent collection of the Fashion Institute's digital
-archive.
+This editorial represents a departure from traditional fashion photography, prioritizing the relationship between body, clothing, and built environment over conventional beauty standards. The resulting images have been published in Vogue's annual architecture special issue and have been acquired for the permanent collection of the Fashion Institute's digital archive.

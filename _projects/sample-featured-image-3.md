@@ -30,20 +30,10 @@ additional_content: |
   <p>Beyond the environmental benefits, the project has generated significant business value. Sales increased by 24% after launch, with customer surveys indicating that the sustainable packaging was a primary factor in purchase decisions. The project has been recognized with sustainability awards from the Packaging Innovation Council and Eco Design Initiative.</p>
 ---
 
-When Pure Elements approached us to redesign their packaging system, they were facing a significant challenge: how to
-maintain their premium brand identity while eliminating plastic from their entire product line. Their customers
-increasingly demanded sustainable packaging, but the brand couldn't compromise on protection, usability, or shelf
-appeal.
+When Pure Elements approached us to redesign their packaging system, they were facing a significant challenge: how to maintain their premium brand identity while eliminating plastic from their entire product line. Their customers increasingly demanded sustainable packaging, but the brand couldn't compromise on protection, usability, or shelf appeal.
 
-Our design process began with an intensive materials exploration phase, where we tested over 30 different sustainable
-substrate options. We evaluated each material for durability, moisture resistance, compostability, and aesthetic
-quality. This led to the development of a custom paper-based composite material reinforced with bamboo fibers that
-provided the necessary structural integrity without plastic components.
+Our design process began with an intensive materials exploration phase, where we tested over 30 different sustainable substrate options. We evaluated each material for durability, moisture resistance, compostability, and aesthetic quality. This led to the development of a custom paper-based composite material reinforced with bamboo fibers that provided the necessary structural integrity without plastic components.
 
-The design language draws inspiration from natural elements – organic shapes, tactile surfaces, and a color palette
-derived from earth pigments. We introduced embossing techniques and innovative folding structures to create distinctive
-packaging forms that stand out on retail shelves without relying on conventional plastic windows or inserts.
+The design language draws inspiration from natural elements – organic shapes, tactile surfaces, and a color palette derived from earth pigments. We introduced embossing techniques and innovative folding structures to create distinctive packaging forms that stand out on retail shelves without relying on conventional plastic windows or inserts.
 
-For product protection, we developed a honeycomb-inspired internal structure that provides cushioning during transit
-while remaining fully compostable. Each packaging component was rigorously tested to ensure it would biodegrade
-completely within 180 days in home composting conditions.
+For product protection, we developed a honeycomb-inspired internal structure that provides cushioning during transit while remaining fully compostable. Each packaging component was rigorously tested to ensure it would biodegrade completely within 180 days in home composting conditions.

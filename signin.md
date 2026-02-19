@@ -50,7 +50,6 @@ signin_form:
       - name: "twitter"
         icon: "uil uil-twitter"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -68,9 +67,9 @@ signin_form:
 {% include components/sections/signin/hero.html %}
 {% include components/sections/signin/signin-form.html %}
 
-{% include components/footer/footer.html
-style= "default"
-bg_color= "bg-dark"
-text_color= "text-inverse"
+{% include components/footer/footer.html 
+  style= "default"
+  bg_color= "bg-dark"
+  text_color= "text-inverse"
 %}
 </div>

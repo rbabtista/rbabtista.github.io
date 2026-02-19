@@ -4,23 +4,18 @@
 .accordion-wrapper {
   .card {
     margin-bottom: 1.25rem;
-
     &.plain {
       background: none;
       border: 0;
       margin-bottom: 0;
       box-shadow: none;
-
       .card-body {
         padding: 0 0 0 1.1rem;
       }
-
       .card-header {
         padding: 0 0 0.8rem 0;
-
         button {
           padding: 0 0 0 1.1rem;
-
           &:before {
             left: 0;
           }
@@ -28,13 +23,11 @@
       }
     }
   }
-
   .card-header {
     margin-bottom: 0;
     background: none;
     border: 0;
     padding: 0.9rem 1.3rem 0.85rem;
-
     button {
       cursor: pointer;
       width: 100%;
@@ -47,7 +40,6 @@
       color: var(--#{$prefix}primary);
       @include transition(all 150ms ease-in-out);
       background: none;
-
       &:before {
         font-family: $font-family-unicons;
         position: absolute;
@@ -61,51 +53,41 @@
         display: inline-block;
         color: var(--#{$prefix}primary);
       }
-
       &.collapsed {
         color: $main-dark;
-
         &:before {
           content: $icon-caret-down;
         }
       }
-
       &:hover {
         color: var(--#{$prefix}primary);
       }
     }
   }
 }
-
 .accordion-item .card-body {
   padding: 0 1.25rem 0.25rem 2.35rem;
 }
-
 .accordion-item.icon {
   .card-body {
     padding: 0 1.25rem 0.25rem 2.8rem;
   }
-
   button {
     padding: 0 0 0 1.5rem;
     display: flex;
     align-items: center;
-
     &:before {
       display: none;
     }
-
     > span {
       position: absolute;
       left: 1.3rem;
-
       i {
         @include font-size(1rem);
       }
     }
   }
 }
-
 //----------------------------------------------------------//
 //	COLLAPSE
 //----------------------------------------------------------//
@@ -113,7 +95,6 @@
   @include font-size(0.85rem);
   font-weight: $font-weight-bold;
   color: var(--#{$prefix}primary);
-
   &:before {
     font-family: $font-family-unicons;
     content: $icon-caret-up;
@@ -125,20 +106,16 @@
     display: inline-block;
     vertical-align: -4px;
   }
-
   &.collapsed {
     color: $main-dark;
-
     &:before {
       content: $icon-caret-down;
     }
   }
-
   &:hover {
     color: var(--#{$prefix}primary);
   }
 }
-
 .accordion-collapse > .card-footer {
   background: $pre-bg;
   padding: 0;
@@ -148,10 +125,9 @@
   &::after {
     display: none !important; // Ensure the default Bootstrap after arrow is hidden
   }
-
+  
   &::before {
     // ...existing code...
   }
-
   // ...existing code...
 }

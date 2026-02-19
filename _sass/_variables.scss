@@ -6,43 +6,43 @@ $enable-rounded: true !default;
 $enable-shadows: true !default;
 $enable-smooth-scroll: false !default;
 $enable-negative-margins: true !default;
-$variable-prefix: bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
-$prefix: $variable-prefix !default;
+$variable-prefix:             bs- !default; // Deprecated in v5.2.0 for the shorter `$prefix`
+$prefix:                      $variable-prefix !default;
 //----------------------------------------------------------//
 //	SPACING
 //----------------------------------------------------------//
 $spacer: 1rem !default;
 $spacers: () !default;
 $spacers: map-merge(
-                (
-                        0: 0,
-                        1: ($spacer * 0.25), // 5px
-                        2: ($spacer * 0.5), // 10px
-                        3: ($spacer * 0.75), // 15px
-                        4: $spacer, // 20px
-                        5: ($spacer * 1.25), // 25px
-                        6: ($spacer * 1.5), // 30px
-                        7: ($spacer * 1.75), // 35px
-                        8: ($spacer * 2), // 40px
-                        9: ($spacer * 2.25), // 45px
-                        10: ($spacer * 2.5), // 50px
-                        11: ($spacer * 3), // 60px
-                        12: ($spacer * 3.5), // 70x
-                        13: ($spacer * 4), // 80px
-                        14: ($spacer * 4.5), // 90px
-                        15: ($spacer * 5), // 100px
-                        16: ($spacer * 6), // 120px
-                        17: ($spacer * 7), // 140px
-                        18: ($spacer * 8), // 160px
-                        19: ($spacer * 9), // 180px
-                        20: ($spacer * 10), // 200px
-                        21: ($spacer * 12.5), // 250px
-                        22: ($spacer * 15), // 300px
-                        23: ($spacer * 17.5), // 350px
-                        24: ($spacer * 20), // 400px
-                        25: ($spacer * 22.5), // 450px
-                ),
-                $spacers
+  (
+    0: 0,
+    1: ($spacer * 0.25), // 5px
+    2: ($spacer * 0.5), // 10px
+    3: ($spacer * 0.75), // 15px
+    4: $spacer, // 20px
+    5: ($spacer * 1.25), // 25px
+    6: ($spacer * 1.5), // 30px
+    7: ($spacer * 1.75), // 35px
+    8: ($spacer * 2), // 40px
+    9: ($spacer * 2.25), // 45px
+    10: ($spacer * 2.5), // 50px
+    11: ($spacer * 3), // 60px
+    12: ($spacer * 3.5), // 70x
+    13: ($spacer * 4), // 80px
+    14: ($spacer * 4.5), // 90px
+    15: ($spacer * 5), // 100px
+    16: ($spacer * 6), // 120px
+    17: ($spacer * 7), // 140px
+    18: ($spacer * 8), // 160px
+    19: ($spacer * 9), // 180px
+    20: ($spacer * 10), // 200px
+    21: ($spacer * 12.5), // 250px
+    22: ($spacer * 15), // 300px
+    23: ($spacer * 17.5), // 350px
+    24: ($spacer * 20), // 400px
+    25: ($spacer * 22.5), // 450px
+  ),
+  $spacers
 );
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
 //----------------------------------------------------------//
@@ -77,25 +77,25 @@ $feedback-success: #198754;
 $feedback-danger: #dc3545;
 $primary: $blue !default;
 $colors: ("blue": $blue,
-        "sky": $sky,
-        "purple": $purple,
-        "grape": $grape,
-        "violet": $violet,
-        "pink": $pink,
-        "fuchsia": $fuchsia,
-        "red": $red,
-        "orange": $orange,
-        "yellow": $yellow,
-        "green": $green,
-        "leaf": $leaf,
-        "aqua": $aqua,
-        "navy": $navy,
-        "ash": $ash,
-        "white": $white,
-        "light": $light,
-        "gray": $gray,
-        "dark": $dark,
-        "primary": $primary,
+  "sky": $sky,
+  "purple": $purple,
+  "grape": $grape,
+  "violet": $violet,
+  "pink": $pink,
+  "fuchsia": $fuchsia,
+  "red": $red,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "leaf": $leaf,
+  "aqua": $aqua,
+  "navy": $navy,
+  "ash": $ash,
+  "white": $white,
+  "light": $light,
+  "gray": $gray,
+  "dark": $dark,
+  "primary": $primary,
 ) !default;
 $secondary: $gray-400 !default;
 $success: $green !default;
@@ -103,12 +103,12 @@ $info: $aqua !default;
 $warning: $yellow !default;
 $danger: $red !default;
 $theme-colors: map-merge($colors,
-        ("secondary": $secondary,
-                "success": $success,
-                "info": $info,
-                "warning": $warning,
-                "danger": $danger,
-        ));
+  ("secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+  ));
 $text-colors: map-remove($theme-colors, "dark") !default;
 $link-colors: map-remove($theme-colors, "dark") !default;
 $main-color: $primary !default;
@@ -119,25 +119,25 @@ $focus-border: tint-color($component-active-bg, 50%) !default;
 $color-contrast-dark: $main-dark !default;
 $color-contrast-light: $white !default;
 $min-contrast-ratio: 3 !default;
-$gradient-1: linear-gradient(120deg, #f857a6 10%, #ef3f6e 100%) !default;
-$gradient-2: linear-gradient(40deg, rgba(245, 177, 97, 1) 0.4%, rgba(236, 54, 110, 1) 100.2%) !default;
+$gradient-1: linear-gradient(120deg,#f857a6 10%,#ef3f6e 100%) !default;
+$gradient-2: linear-gradient(40deg, rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2%) !default;
 $gradient-3: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%) !default;
 $gradient-4: linear-gradient(125deg, #9040db, #ff72c2 50%, #ffd84f) !default;
 $gradient-5: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%) !default;
 $gradient-6: linear-gradient(45deg, #08AEEA 0%, #2AF598 100%) !default;
-$gradient-7: linear-gradient(100deg, #605dba 20%, #3f78e0 85%) !default;
+$gradient-7: linear-gradient(100deg,#605dba 20%,#3f78e0 85%) !default;
 $gradient-8: linear-gradient(0deg, #2c46a7, #3757c4) !default;
 $gradient-9: linear-gradient(45deg, rgb(255, 222, 233), rgb(181, 255, 252)) !default;
 $gradients: (
-        gradient-1: $gradient-1,
-        gradient-2: $gradient-2,
-        gradient-3: $gradient-3,
-        gradient-4: $gradient-4,
-        gradient-5: $gradient-5,
-        gradient-6: $gradient-6,
-        gradient-7: $gradient-7,
-        gradient-8: $gradient-8,
-        gradient-9: $gradient-9,
+  gradient-1: $gradient-1,
+  gradient-2: $gradient-2,
+  gradient-3: $gradient-3,
+  gradient-4: $gradient-4,
+  gradient-5: $gradient-5,
+  gradient-6: $gradient-6,
+  gradient-7: $gradient-7,
+  gradient-8: $gradient-8,
+  gradient-9: $gradient-9,
 ) !default;
 $px: #00a6df !default;
 $adobe: #e61f26 !default;
@@ -182,215 +182,215 @@ $vuejs: #3fb37f !default;
 $vk: #4f7db3 !default;
 $whatsapp: #00a859 !default;
 $brand-colors: ("dropbox": $dropbox,
-        "dribbble": $dribbble,
-        "google-drive-alt": $googledrive,
-        "facebook-f": $facebook,
-        "instagram": $instagram,
-        "line": $line,
-        "facebook-messenger": $facebookmessenger,
-        "black-berry": $blackberry,
-        "linkedin": $linkedin,
-        "intercom": $intercom,
-        "facebook": $facebook,
-        "youtube": $youtube,
-        "apple": $apple,
-        "visual-studio": $visualstudio,
-        "twitter": $twitter,
-        "snapchat-ghost": $snapchat,
-        "slack": $slack,
-        "tumblr-square": $tumblr,
-        "medium-m": $medium,
-        "tumblr": $tumblr,
-        "adobe": $adobe,
-        "whatsapp": $whatsapp,
-        "500-px": $px,
-        "snapchat-square": $snapchat,
-        "behance": $behance,
-        "instagram-alt": $instagram,
-        "github-alt": $github,
-        "linkedin-alt": $linkedin,
-        "slack-alt": $slack,
-        "google": $google,
-        "google-play": $google,
-        "google-drive": $googledrive,
-        "vuejs-alt": $vuejs,
-        "google-hangouts": $googlehangouts,
-        "vuejs": $vuejs,
-        "java-script": $javascript,
-        "paypal": $paypal,
-        "reddit-alien-alt": $reddit,
-        "android-alt": $android,
-        "github": $github,
-        "android": $android,
-        "amazon": $amazon,
-        "adobe-alt": $adobe,
-        "master-card": $mastercard,
-        "opera-alt": $opera,
-        "css3-alt": $css3,
-        "opera": $opera,
-        "css3": $css3,
-        "twitter-alt": $twitter,
-        "intercom-alt": $intercom,
-        "swiggy": $swiggy,
-        "snapchat-alt": $snapchat,
-        "tumblr-alt": $tumblr,
-        "facebook-messenger-alt": $facebookmessenger,
-        "bitcoin-alt": $bitcoin,
-        "google-hangouts-alt": $googlehangouts,
-        "blogger": $blogger,
-        "blogger-alt": $blogger,
-        "bitcoin": $bitcoin,
-        "behance-alt": $behance,
-        "apple-alt": $apple,
-        "react": $react,
-        "telegram": $telegram,
-        "vk-alt": $vk,
-        "vk": $vk,
-        "skype": $skype,
-        "skype-alt": $skype,
-        "telegram-alt": $telegram,
+  "dribbble": $dribbble,
+  "google-drive-alt": $googledrive,
+  "facebook-f": $facebook,
+  "instagram": $instagram,
+  "line": $line,
+  "facebook-messenger": $facebookmessenger,
+  "black-berry": $blackberry,
+  "linkedin": $linkedin,
+  "intercom": $intercom,
+  "facebook": $facebook,
+  "youtube": $youtube,
+  "apple": $apple,
+  "visual-studio": $visualstudio,
+  "twitter": $twitter,
+  "snapchat-ghost": $snapchat,
+  "slack": $slack,
+  "tumblr-square": $tumblr,
+  "medium-m": $medium,
+  "tumblr": $tumblr,
+  "adobe": $adobe,
+  "whatsapp": $whatsapp,
+  "500-px": $px,
+  "snapchat-square": $snapchat,
+  "behance": $behance,
+  "instagram-alt": $instagram,
+  "github-alt": $github,
+  "linkedin-alt": $linkedin,
+  "slack-alt": $slack,
+  "google": $google,
+  "google-play": $google,
+  "google-drive": $googledrive,
+  "vuejs-alt": $vuejs,
+  "google-hangouts": $googlehangouts,
+  "vuejs": $vuejs,
+  "java-script": $javascript,
+  "paypal": $paypal,
+  "reddit-alien-alt": $reddit,
+  "android-alt": $android,
+  "github": $github,
+  "android": $android,
+  "amazon": $amazon,
+  "adobe-alt": $adobe,
+  "master-card": $mastercard,
+  "opera-alt": $opera,
+  "css3-alt": $css3,
+  "opera": $opera,
+  "css3": $css3,
+  "twitter-alt": $twitter,
+  "intercom-alt": $intercom,
+  "swiggy": $swiggy,
+  "snapchat-alt": $snapchat,
+  "tumblr-alt": $tumblr,
+  "facebook-messenger-alt": $facebookmessenger,
+  "bitcoin-alt": $bitcoin,
+  "google-hangouts-alt": $googlehangouts,
+  "blogger": $blogger,
+  "blogger-alt": $blogger,
+  "bitcoin": $bitcoin,
+  "behance-alt": $behance,
+  "apple-alt": $apple,
+  "react": $react,
+  "telegram": $telegram,
+  "vk-alt": $vk,
+  "vk": $vk,
+  "skype": $skype,
+  "skype-alt": $skype,
+  "telegram-alt": $telegram,
 ) !default;
 
 //Text Emphasis
-$primary-text-emphasis: shade-color($primary, 30%) !default;
+$primary-text-emphasis:   shade-color($primary, 30%) !default;
 $secondary-text-emphasis: shade-color($secondary, 30%) !default;
-$success-text-emphasis: shade-color($success, 30%) !default;
-$info-text-emphasis: shade-color($info, 30%) !default;
-$warning-text-emphasis: shade-color($warning, 30%) !default;
-$danger-text-emphasis: shade-color($danger, 30%) !default;
-$light-text-emphasis: shade-color($light, 30%) !default;
-$dark-text-emphasis: shade-color($dark, 30%) !default;
+$success-text-emphasis:   shade-color($success, 30%) !default;
+$info-text-emphasis:      shade-color($info, 30%) !default;
+$warning-text-emphasis:   shade-color($warning, 30%) !default;
+$danger-text-emphasis:    shade-color($danger, 30%) !default;
+$light-text-emphasis:     shade-color($light, 30%) !default;
+$dark-text-emphasis:      shade-color($dark, 30%) !default;
 
 //BG Subtle
-$primary-bg-subtle: tint-color($primary, 90.5%) !default;
-$secondary-bg-subtle: tint-color($secondary, 90.5%) !default;
-$success-bg-subtle: tint-color($success, 90.5%) !default;
-$info-bg-subtle: tint-color($info, 90.5%) !default;
-$warning-bg-subtle: tint-color($warning, 90%) !default; // yellow
-$danger-bg-subtle: tint-color($danger, 90.5%) !default;
-$light-bg-subtle: mix($gray-200, $white) !default;
-$dark-bg-subtle: tint-color($dark, 90.5%) !default;
-$primary-subtle: tint-color($primary, 90.5%) !default;
+$primary-bg-subtle:       tint-color($primary, 90.5%) !default;
+$secondary-bg-subtle:     tint-color($secondary, 90.5%) !default;
+$success-bg-subtle:       tint-color($success, 90.5%) !default;
+$info-bg-subtle:          tint-color($info, 90.5%) !default;
+$warning-bg-subtle:       tint-color($warning, 90%) !default; // yellow 
+$danger-bg-subtle:        tint-color($danger, 90.5%) !default;
+$light-bg-subtle:         mix($gray-200, $white) !default;
+$dark-bg-subtle:          tint-color($dark, 90.5%) !default;
+$primary-subtle:          tint-color($primary, 90.5%) !default;
 
 //BG Soft
-$primary-soft: tint-color($primary, 90.5%) !default;
-$blue-soft: tint-color($blue, 90.5%) !default;
-$sky-soft: tint-color($sky, 90.5%) !default;
-$purple-soft: tint-color($purple, 90.5%) !default;
-$grape-soft: tint-color($grape, 90.5%) !default;
-$violet-soft: tint-color($violet, 90.5%) !default;
-$pink-soft: tint-color($pink, 90.5%) !default;
-$fuchsia-soft: tint-color($fuchsia, 90.5%) !default;
-$red-soft: tint-color($red, 90.5%) !default;
-$orange-soft: tint-color($orange, 90.5%) !default;
-$yellow-soft: tint-color($yellow, 90%) !default; // yellow
-$green-soft: tint-color($green, 90.5%) !default;
-$leaf-soft: tint-color($leaf, 90.5%) !default;
-$aqua-soft: tint-color($aqua, 90.5%) !default;
-$navy-soft: tint-color($navy, 90.5%) !default;
-$ash-soft: tint-color($ash, 90.5%) !default;
-$gray-soft: $border-light !default;
+$primary-soft:       tint-color($primary, 90.5%) !default;
+$blue-soft:          tint-color($blue, 90.5%) !default;
+$sky-soft:           tint-color($sky, 90.5%) !default;
+$purple-soft:        tint-color($purple, 90.5%) !default;
+$grape-soft:         tint-color($grape, 90.5%) !default;
+$violet-soft:        tint-color($violet, 90.5%) !default;
+$pink-soft:          tint-color($pink, 90.5%) !default;
+$fuchsia-soft:       tint-color($fuchsia, 90.5%) !default;
+$red-soft:           tint-color($red, 90.5%) !default;
+$orange-soft:        tint-color($orange, 90.5%) !default;
+$yellow-soft:        tint-color($yellow, 90%) !default; // yellow 
+$green-soft:         tint-color($green, 90.5%) !default;
+$leaf-soft:          tint-color($leaf, 90.5%) !default;
+$aqua-soft:          tint-color($aqua, 90.5%) !default;
+$navy-soft:          tint-color($navy, 90.5%) !default;
+$ash-soft:           tint-color($ash, 90.5%) !default;
+$gray-soft:          $border-light !default;
 
 //BG Pale
-$primary-pale: tint-color($primary, 84%) !default;
-$blue-pale: tint-color($blue, 84%) !default;
-$sky-pale: tint-color($sky, 84%) !default;
-$purple-pale: tint-color($purple, 84%) !default;
-$grape-pale: tint-color($grape, 84%) !default;
-$violet-pale: tint-color($violet, 84%) !default;
-$pink-pale: tint-color($pink, 84%) !default;
-$fuchsia-pale: tint-color($fuchsia, 84%) !default;
-$red-pale: tint-color($red, 84%) !default;
-$orange-pale: tint-color($orange, 84%) !default;
-$yellow-pale: tint-color($yellow, 84%) !default;
-$green-pale: tint-color($green, 84%) !default;
-$leaf-pale: tint-color($leaf, 84%) !default;
-$aqua-pale: tint-color($aqua, 84%) !default;
-$navy-pale: tint-color($navy, 84%) !default;
-$dark-pale: tint-color($dark, 84%) !default;
-$ash-pale: $border-light !default;
+$primary-pale:         tint-color($primary, 84%) !default;
+$blue-pale:            tint-color($blue, 84%) !default;
+$sky-pale:             tint-color($sky, 84%) !default;
+$purple-pale:          tint-color($purple, 84%) !default;
+$grape-pale:           tint-color($grape, 84%) !default;
+$violet-pale:          tint-color($violet, 84%) !default;
+$pink-pale:            tint-color($pink, 84%) !default;
+$fuchsia-pale:         tint-color($fuchsia, 84%) !default;
+$red-pale:             tint-color($red, 84%) !default;
+$orange-pale:          tint-color($orange, 84%) !default;
+$yellow-pale:          tint-color($yellow, 84%) !default;
+$green-pale:           tint-color($green, 84%) !default;
+$leaf-pale:            tint-color($leaf, 84%) !default;
+$aqua-pale:            tint-color($aqua, 84%) !default;
+$navy-pale:            tint-color($navy, 84%) !default;
+$dark-pale:            tint-color($dark, 84%) !default;
+$ash-pale:             $border-light !default;
 
 //Bullet Soft
-$primary-bullet-soft: tint-color($primary, 82%) !default;
-$blue-bullet-soft: tint-color($blue, 82%) !default;
-$sky-bullet-soft: tint-color($sky, 82%) !default;
-$purple-bullet-soft: tint-color($purple, 82%) !default;
-$grape-bullet-soft: tint-color($grape, 82%) !default;
-$violet-bullet-soft: tint-color($violet, 82%) !default;
-$pink-bullet-soft: tint-color($pink, 82%) !default;
-$fuchsia-bullet-soft: tint-color($fuchsia, 82%) !default;
-$red-bullet-soft: tint-color($red, 82%) !default;
-$orange-bullet-soft: tint-color($orange, 82%) !default;
-$yellow-bullet-soft: tint-color($yellow, 77%) !default; // yellow
-$green-bullet-soft: tint-color($green, 82%) !default;
-$leaf-bullet-soft: tint-color($leaf, 82%) !default;
-$aqua-bullet-soft: tint-color($aqua, 82%) !default;
-$navy-bullet-soft: tint-color($navy, 82%) !default;
-$ash-bullet-soft: tint-color($ash, 82%) !default;
+$primary-bullet-soft:         tint-color($primary, 82%) !default;
+$blue-bullet-soft:            tint-color($blue, 82%) !default;
+$sky-bullet-soft:             tint-color($sky, 82%) !default;
+$purple-bullet-soft:          tint-color($purple, 82%) !default;
+$grape-bullet-soft:           tint-color($grape, 82%) !default;
+$violet-bullet-soft:          tint-color($violet, 82%) !default;
+$pink-bullet-soft:            tint-color($pink, 82%) !default;
+$fuchsia-bullet-soft:         tint-color($fuchsia, 82%) !default;
+$red-bullet-soft:             tint-color($red, 82%) !default;
+$orange-bullet-soft:          tint-color($orange, 82%) !default;
+$yellow-bullet-soft:          tint-color($yellow, 77%) !default; // yellow 
+$green-bullet-soft:           tint-color($green, 82%) !default;
+$leaf-bullet-soft:            tint-color($leaf, 82%) !default;
+$aqua-bullet-soft:            tint-color($aqua, 82%) !default;
+$navy-bullet-soft:            tint-color($navy, 82%) !default;
+$ash-bullet-soft:             tint-color($ash, 82%) !default;
 
 //Icon Fill
-$primary-icon-fill: tint-color($primary, 40%) !default;
-$blue-icon-fill: tint-color($blue, 40%) !default;
-$sky-icon-fill: tint-color($sky, 40%) !default;
-$purple-icon-fill: tint-color($purple, 40%) !default;
-$grape-icon-fill: tint-color($grape, 40%) !default;
-$violet-icon-fill: tint-color($violet, 40%) !default;
-$pink-icon-fill: tint-color($pink, 40%) !default;
-$fuchsia-icon-fill: tint-color($fuchsia, 40%) !default;
-$red-icon-fill: tint-color($red, 40%) !default;
-$orange-icon-fill: tint-color($orange, 40%) !default;
-$yellow-icon-fill: tint-color($yellow, 40%) !default;
-$green-icon-fill: tint-color($green, 40%) !default;
-$leaf-icon-fill: tint-color($leaf, 40%) !default;
-$aqua-icon-fill: tint-color($aqua, 40%) !default;
-$navy-icon-fill: tint-color($navy, 40%) !default;
-$ash-icon-fill: tint-color($ash, 40%) !default;
+$primary-icon-fill:         tint-color($primary, 40%) !default;
+$blue-icon-fill:            tint-color($blue, 40%) !default;
+$sky-icon-fill:             tint-color($sky, 40%) !default;
+$purple-icon-fill:          tint-color($purple, 40%) !default;
+$grape-icon-fill:           tint-color($grape, 40%) !default;
+$violet-icon-fill:          tint-color($violet, 40%) !default;
+$pink-icon-fill:            tint-color($pink, 40%) !default;
+$fuchsia-icon-fill:         tint-color($fuchsia, 40%) !default;
+$red-icon-fill:             tint-color($red, 40%) !default;
+$orange-icon-fill:          tint-color($orange, 40%) !default;
+$yellow-icon-fill:          tint-color($yellow, 40%) !default;
+$green-icon-fill:           tint-color($green, 40%) !default;
+$leaf-icon-fill:            tint-color($leaf, 40%) !default;
+$aqua-icon-fill:            tint-color($aqua, 40%) !default;
+$navy-icon-fill:            tint-color($navy, 40%) !default;
+$ash-icon-fill:             tint-color($ash, 40%) !default;
 
 //Icon Solid Fill
-$primary-icon-solid-fill: tint-color($primary, 60%) !default;
-$blue-icon-solid-fill: tint-color($blue, 60%) !default;
-$sky-icon-solid-fill: tint-color($sky, 60%) !default;
-$purple-icon-solid-fill: tint-color($purple, 60%) !default;
-$grape-icon-solid-fill: tint-color($grape, 60%) !default;
-$violet-icon-solid-fill: tint-color($violet, 60%) !default;
-$pink-icon-solid-fill: tint-color($pink, 60%) !default;
-$fuchsia-icon-solid-fill: tint-color($fuchsia, 60%) !default;
-$red-icon-solid-fill: tint-color($red, 60%) !default;
-$orange-icon-solid-fill: tint-color($orange, 60%) !default;
-$yellow-icon-solid-fill: tint-color($yellow, 60%) !default;
-$green-icon-solid-fill: tint-color($green, 60%) !default;
-$leaf-icon-solid-fill: tint-color($leaf, 60%) !default;
-$aqua-icon-solid-fill: tint-color($aqua, 60%) !default;
-$navy-icon-solid-fill: tint-color($navy, 60%) !default;
-$ash-icon-solid-fill: tint-color($ash, 60%) !default;
+$primary-icon-solid-fill:         tint-color($primary, 60%) !default;
+$blue-icon-solid-fill:            tint-color($blue, 60%) !default;
+$sky-icon-solid-fill:             tint-color($sky, 60%) !default;
+$purple-icon-solid-fill:          tint-color($purple, 60%) !default;
+$grape-icon-solid-fill:           tint-color($grape, 60%) !default;
+$violet-icon-solid-fill:          tint-color($violet, 60%) !default;
+$pink-icon-solid-fill:            tint-color($pink, 60%) !default;
+$fuchsia-icon-solid-fill:         tint-color($fuchsia, 60%) !default;
+$red-icon-solid-fill:             tint-color($red, 60%) !default;
+$orange-icon-solid-fill:          tint-color($orange, 60%) !default;
+$yellow-icon-solid-fill:          tint-color($yellow, 60%) !default;
+$green-icon-solid-fill:           tint-color($green, 60%) !default;
+$leaf-icon-solid-fill:            tint-color($leaf, 60%) !default;
+$aqua-icon-solid-fill:            tint-color($aqua, 60%) !default;
+$navy-icon-solid-fill:            tint-color($navy, 60%) !default;
+$ash-icon-solid-fill:             tint-color($ash, 60%) !default;
 
 //Border Subtle
-$primary-border-subtle: tint-color($primary, 70%) !default;
+$primary-border-subtle:   tint-color($primary, 70%) !default;
 $secondary-border-subtle: tint-color($secondary, 70%) !default;
-$success-border-subtle: tint-color($success, 70%) !default;
-$info-border-subtle: tint-color($info, 70%) !default;
-$warning-border-subtle: tint-color($warning, 70%) !default;
-$danger-border-subtle: tint-color($danger, 70%) !default;
-$light-text-emphasis: mix($gray-300, $white) !default;
-$dark-border-subtle: tint-color($dark, 70%) !default;
+$success-border-subtle:   tint-color($success, 70%) !default;
+$info-border-subtle:      tint-color($info, 70%) !default;
+$warning-border-subtle:   tint-color($warning, 70%) !default;
+$danger-border-subtle:    tint-color($danger, 70%) !default;
+$light-text-emphasis:     mix($gray-300, $white) !default;
+$dark-border-subtle:      tint-color($dark, 70%) !default;
 
 //Border Soft
-$primary-border-soft: tint-color($primary, 70%) !default;
-$blue-border-soft: tint-color($blue, 70%) !default;
-$sky-border-soft: tint-color($sky, 70%) !default;
-$purple-border-soft: tint-color($purple, 70%) !default;
-$grape-border-soft: tint-color($grape, 70%) !default;
-$violet-border-soft: tint-color($violet, 70%) !default;
-$pink-border-soft: tint-color($pink, 70%) !default;
-$fuchsia-border-soft: tint-color($fuchsia, 70%) !default;
-$red-border-soft: tint-color($red, 70%) !default;
-$orange-border-soft: tint-color($orange, 70%) !default;
-$yellow-border-soft: tint-color($yellow, 70%) !default;
-$green-border-soft: tint-color($green, 70%) !default;
-$leaf-border-soft: tint-color($leaf, 70%) !default;
-$aqua-border-soft: tint-color($aqua, 70%) !default;
-$navy-border-soft: tint-color($navy, 70%) !default;
-$ash-border-soft: tint-color($ash, 70%) !default;
+$primary-border-soft:   tint-color($primary, 70%) !default;
+$blue-border-soft:      tint-color($blue, 70%) !default;
+$sky-border-soft:       tint-color($sky, 70%) !default;
+$purple-border-soft:    tint-color($purple, 70%) !default;
+$grape-border-soft:     tint-color($grape, 70%) !default;
+$violet-border-soft:    tint-color($violet, 70%) !default;
+$pink-border-soft:      tint-color($pink, 70%) !default;
+$fuchsia-border-soft:   tint-color($fuchsia, 70%) !default;
+$red-border-soft:       tint-color($red, 70%) !default;
+$orange-border-soft:    tint-color($orange, 70%) !default;
+$yellow-border-soft:    tint-color($yellow, 70%) !default;
+$green-border-soft:     tint-color($green, 70%) !default;
+$leaf-border-soft:      tint-color($leaf, 70%) !default;
+$aqua-border-soft:      tint-color($aqua, 70%) !default;
+$navy-border-soft:      tint-color($navy, 70%) !default;
+$ash-border-soft:       tint-color($ash, 70%) !default;
 //----------------------------------------------------------//
 //	BODY
 //----------------------------------------------------------//
@@ -482,11 +482,11 @@ $h6-line-height: 1.55 !default;
 $headings-font-weight: 700 !default;
 $headings-color: $main-dark !default;
 $display-font-sizes: (1: 2.4rem,
-        2: 2.2rem,
-        3: 2rem,
-        4: 1.8rem,
-        5: 1.6rem,
-        6: 1.4rem,
+  2: 2.2rem,
+  3: 2rem,
+  4: 1.8rem,
+  5: 1.6rem,
+  6: 1.4rem,
 ) !default;
 $display-font-weight: 700 !default;
 $lead-font-size: $font-size-base * 1.25 * 0.9 !default;
@@ -590,7 +590,7 @@ $form-check-input-checked-border-color: $form-check-input-checked-bg-color !defa
 $form-check-radio-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='1.5' fill='#{$form-check-input-checked-color}'/></svg>") !default;
 $form-check-input-focus-border: rgba($shadow-border, 0.1) !default;
 $form-check-input-focus-box-shadow: none !default;
-$form-select-focus-border-color: $form-check-input-focus-border !default;
+$form-select-focus-border-color:  $form-check-input-focus-border !default;
 $form-select-focus-box-shadow: unset !default;
 $form-select-border-color: $input-border-color !default;
 $form-select-border-radius: $border-radius !default;
@@ -780,7 +780,7 @@ $popover-border-width: $border-width !default;
 $popover-border-color: $border-light !default;
 $popover-border-radius: $border-radius !default;
 $popover-inner-border-radius: subtract($popover-border-radius,
-        $popover-border-width) !default;
+  $popover-border-width) !default;
 $popover-box-shadow: $box-shadow !default;
 $popover-header-bg: $popover-bg !default;
 $popover-header-color: $headings-color !default;
@@ -858,7 +858,7 @@ $btn-close-light-color: #fff !default;
 $btn-close-light-hover-color: $btn-close-light-color !default;
 $btn-close-light-hover-bg: rgba(255, 255, 255, 0.11) !default;
 $btn-close-light-bg: rgba(255, 255, 255, 0.08) !default;
-$btn-close-content: "\ed3b" !default; // Unicons close icon code
+$btn-close-content: "\ed3b" !default;  // Unicons close icon code
 //----------------------------------------------------------//
 //	SLIDER
 //----------------------------------------------------------//

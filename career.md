@@ -145,7 +145,6 @@ faq:
     - question: "How do I reset my Account password?"
       answer: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis."
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -166,9 +165,9 @@ faq:
 {% include components/sections/career/jobs.html %}
 {% include components/sections/career/faq.html %}
 
-{% include components/footer/footer.html
-style="default"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="default"
+  bg_color="bg-dark"
+  text_color="text-inverse"
 %}
 </div>

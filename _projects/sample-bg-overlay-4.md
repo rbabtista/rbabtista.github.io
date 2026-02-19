@@ -21,9 +21,4 @@ carousel_images:
   - "/assets/img/photos/pp22.webp"
   - "/assets/img/photos/pp23.webp"
 ---
-
-This photography series explores the dynamic and ever-changing nature of urban landscapes. Through a combination of
-wide-angle shots and close-up details, the series captures the energy and diversity of city life. The photographs
-highlight the interplay between architecture, light, and human activity, creating a visual narrative that celebrates the
-vibrancy of urban environments. The series has been featured in Urban Magazine and exhibited in several galleries,
-receiving acclaim for its unique perspective on cityscapes.
+This photography series explores the dynamic and ever-changing nature of urban landscapes. Through a combination of wide-angle shots and close-up details, the series captures the energy and diversity of city life. The photographs highlight the interplay between architecture, light, and human activity, creating a visual narrative that celebrates the vibrancy of urban environments. The series has been featured in Urban Magazine and exhibited in several galleries, receiving acclaim for its unique perspective on cityscapes.

@@ -19,8 +19,4 @@ top_slider:
   - image: "/assets/img/photos/pp12.webp"
     title: "Packaging in Context"
 ---
-
-This project involved designing luxury packaging for Luxe Beauty, a high-end cosmetics brand. The packaging needed to
-reflect the brand's commitment to elegance and sustainability. Our design team developed a range of packaging solutions
-using eco-friendly materials and sophisticated design elements. The new packaging has been well-received by the client
-and their customers, enhancing the brand's premium image and environmental credentials.
+This project involved designing luxury packaging for Luxe Beauty, a high-end cosmetics brand. The packaging needed to reflect the brand's commitment to elegance and sustainability. Our design team developed a range of packaging solutions using eco-friendly materials and sophisticated design elements. The new packaging has been well-received by the client and their customers, enhancing the brand's premium image and environmental credentials.

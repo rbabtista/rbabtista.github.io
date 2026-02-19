@@ -26,24 +26,22 @@ title: Demo Layout 14
 permalink: /demo14/
 
 # Hero Section
-
 hero:
-title: Creative. Smart. Awesome.
-subtitle: We are an award winning digital agency that strongly believes in the power of creative ideas.
-button:
-text: Read More
-url: /about
-
+  title: Creative. Smart. Awesome.
+  subtitle: We are an award winning digital agency that strongly believes in the power of creative ideas.
+  button:
+    text: Read More
+    url: /about
+    
 # Projects Section
-
 projects:
-title: Our Projects
-subtitle: Check out some of our awesome projects with creative ideas.
+  title: Our Projects
+  subtitle: Check out some of our awesome projects with creative ideas.
 ---</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="snippet-1-2">
@@ -158,18 +156,18 @@ subtitle: Check out some of our awesome projects with creative ideas.
   primary: "purple"
   secondary: "yellow"
   background: "light"
-
+  
 sections:
-about:
-background_color: "soft-primary"
-text_color: "primary"
-services:
-background_color: "gray"
-text_color: "dark"</code></pre>
-</div>
-</div>
-</div>
-</div>
+  about:
+    background_color: "soft-primary"
+    text_color: "primary"
+  services:
+    background_color: "gray"
+    text_color: "dark"</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>
 
@@ -249,16 +247,15 @@ text_color: "dark"</code></pre>
 {% include components/sections/demo1/solutions.html %}
 
 # Common sections in corporate demos:
-
 - Hero with business messaging
 - Service offerings
 - Team showcase
 - Client testimonials
 - Case studies/portfolio
 - Contact information{% endraw %}</code></pre>
-  </div>
-  </div>
-  </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -274,7 +271,6 @@ text_color: "dark"</code></pre>
       <div id="collapse-5-2" class="card-footer bg-dark p-0 accordion-collapse collapse">
         <div class="code-wrapper">
           <div class="code-wrapper-inner">
-
 <pre class="language-yaml"><code>portfolio:
   style: "grid"  # Options: grid, masonry, carousel
   items_per_row: 3
@@ -287,12 +283,10 @@ text_color: "dark"</code></pre>
     - title: "Project Name"
       category: "Branding"
       image: "/assets/img/portfolio/1.webp"</code></pre>
-
           </div>
         </div>
       </div>
     </div>
-
   </section>
 
   <section id="snippet-5-3">
@@ -313,21 +307,21 @@ text_color: "dark"</code></pre>
     - icon: "uil-mobile-android"
       title: "Mobile Ready"
       description: "Responsive design that works on all devices"
-
+      
 pricing:
-period_toggle: true # Enable monthly/yearly toggle
-plans:
-- name: "Basic"
-price:
-monthly: 19
-yearly: 199
-features:
-- "5 Projects"
-- "100 GB Storage"</code></pre>
-</div>
-</div>
-</div>
-</div>
+  period_toggle: true  # Enable monthly/yearly toggle
+  plans:
+    - name: "Basic"
+      price: 
+        monthly: 19
+        yearly: 199
+      features:
+        - "5 Projects"
+        - "100 GB Storage"</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="snippet-5-4">
@@ -349,18 +343,18 @@ features:
   button:
     text: "Sign Up Now"
     url: "/signup"
-
+    
 testimonials:
-style: "carousel"
-autoplay: true
-items:
-- author: "John Doe"
-company: "Company Name"
-content: "Testimonial text here"</code></pre>
-</div>
-</div>
-</div>
-</div>
+  style: "carousel"
+  autoplay: true
+  items:
+    - author: "John Doe"
+      company: "Company Name"
+      content: "Testimonial text here"</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>
 

@@ -195,7 +195,6 @@ otherSearch: true
 otherBtn: true
 
 # Footer Parameters
-
 style: "default"
 bg_color: "bg-light"
 text_color: ""
@@ -203,14 +202,13 @@ newsletter: true
 cta: true
 
 # Header Parameters
-
 background_class: "bg-soft-primary"
 title: "Page Title"
 subtitle: "Page subtitle"
 figure_image: "/path/to/image.webp"</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>

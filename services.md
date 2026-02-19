@@ -153,7 +153,6 @@ lets_talk:
       src2x: /assets/img/photos/g6@2x.webp
      
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -175,9 +174,9 @@ lets_talk:
 {% include components/sections/services/pricing.html %}
 {% include components/sections/services/lets-talk.html %}
 
-{% include components/footer/footer.html
-style="default"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="default"
+  bg_color="bg-dark"
+  text_color="text-inverse"
 %}
 </div>

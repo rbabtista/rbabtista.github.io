@@ -98,7 +98,6 @@ sidebar_nav:
   - title: "6. Account & Billing"
     url: "#account-billing"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -149,9 +148,9 @@ sidebar_nav:
 </div>
 <!-- /.container -->
 
-{% include components/footer/footer.html
-style="default"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="default"
+  bg_color="bg-dark"
+  text_color="text-inverse"
 %}
 </div>

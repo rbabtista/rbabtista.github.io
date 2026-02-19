@@ -46,20 +46,17 @@ toc: true
 gem install bundler
 
 # Install ImageMagick (MacOS)
-
 brew install imagemagick
 
 # Install ImageMagick (Ubuntu/Debian)
-
 sudo apt-get install imagemagick
 
 # Install project dependencies
-
 bundle install</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="snippet-1-3">
@@ -99,28 +96,27 @@ bundle install</code></pre>
 <pre class="language-plaintext"><code>Common Windows Issues:
 
 1. "Convert not found" error:
-    - Rename "convert.exe" to "imagemagick-convert.exe" in ImageMagick installation directory
-    - This prevents conflicts with Windows system convert.exe
+   - Rename "convert.exe" to "imagemagick-convert.exe" in ImageMagick installation directory
+   - This prevents conflicts with Windows system convert.exe
 
 2. PATH issues:
-    - Open System Properties
-    - Click "Environment Variables"
-    - Add ImageMagick directory to Path (typically C:\Program Files\ImageMagick-7.x.x-Q16)
+   - Open System Properties
+   - Click "Environment Variables"
+   - Add ImageMagick directory to Path (typically C:\Program Files\ImageMagick-7.x.x-Q16)
 
 3. Ruby gem installation fails:
-    - Install Visual Studio Build Tools
-    - Run: `ridk install` (select options 1, 2, and 3)
-    - Reinstall the gem
+   - Install Visual Studio Build Tools
+   - Run: `ridk install` (select options 1, 2, and 3)
+   - Reinstall the gem
 
 4. DLL load failed:
-    - Install Visual C++ Redistributable
-    - Download from Microsoft's website
-    - Install both x86 and x64 versions if unsure</code></pre>
+   - Install Visual C++ Redistributable
+   - Download from Microsoft's website
+   - Install both x86 and x64 versions if unsure</code></pre>
+          </div>
+        </div>
       </div>
-         </div>
-       </div>
     </div>
-
   </section>
 
   <section id="snippet-1-4">
@@ -237,16 +233,14 @@ end</code></pre>
 bundle exec rake convert_to_webp
 
 # Optimize and remove originals
-
 bundle exec rake optimize_images[true]
 
 # Remove original files
-
 bundle exec rake remove_originals</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>
 
@@ -341,16 +335,13 @@ task :custom_task do
 end
 
 # Task with dependencies
-
 task :custom_task_with_deps => [:prepare, :build] do
-
-# This task runs after prepare and build
-
+  # This task runs after prepare and build
 end</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>
 

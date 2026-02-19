@@ -41,15 +41,8 @@ additional_gallery:
   
 ---
 
-The Memphis Design revival project for Retro Industries aimed to create a bold, contemporary brand identity that pays
-homage to the iconic 1980s Memphis Group aesthetic while maintaining relevance for today's digital-first audience. Our
-challenge was to balance nostalgic design elements with modern applications and ensure consistent brand implementation
-across physical and digital touchpoints.
+The Memphis Design revival project for Retro Industries aimed to create a bold, contemporary brand identity that pays homage to the iconic 1980s Memphis Group aesthetic while maintaining relevance for today's digital-first audience. Our challenge was to balance nostalgic design elements with modern applications and ensure consistent brand implementation across physical and digital touchpoints.
 
-We began by researching the original Memphis Design movement, identifying key characteristics - geometric shapes, bold
-colors, asymmetric patterns - that could be adapted for contemporary use. The resulting design system captures the
-playful, energetic spirit of Memphis while providing the flexibility needed for diverse applications.
+We began by researching the original Memphis Design movement, identifying key characteristics - geometric shapes, bold colors, asymmetric patterns - that could be adapted for contemporary use. The resulting design system captures the playful, energetic spirit of Memphis while providing the flexibility needed for diverse applications.
 
-The new identity has helped the client differentiate themselves in a crowded marketplace, with post-launch metrics
-showing increased brand recognition and engagement, particularly among younger audiences who are discovering Memphis
-Design for the first time.
+The new identity has helped the client differentiate themselves in a crowded marketplace, with post-launch metrics showing increased brand recognition and engagement, particularly among younger audiences who are discovering Memphis Design for the first time.

@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Space Grotesk';
     src: url('SpaceGrotesk-SemiBold.woff2') format('woff2'),
-    url('SpaceGrotesk-SemiBold.woff') format('woff');
+        url('SpaceGrotesk-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: block;
@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'Space Grotesk';
     src: url('SpaceGrotesk-Light.woff2') format('woff2'),
-    url('SpaceGrotesk-Light.woff') format('woff');
+        url('SpaceGrotesk-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: block;
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Space Grotesk';
     src: url('SpaceGrotesk-Bold.woff2') format('woff2'),
-    url('SpaceGrotesk-Bold.woff') format('woff');
+        url('SpaceGrotesk-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: block;
@@ -28,7 +28,7 @@
 @font-face {
     font-family: 'Space Grotesk';
     src: url('SpaceGrotesk-Medium.woff2') format('woff2'),
-    url('SpaceGrotesk-Medium.woff') format('woff');
+        url('SpaceGrotesk-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: block;
@@ -37,7 +37,7 @@
 @font-face {
     font-family: 'Space Grotesk';
     src: url('SpaceGrotesk-Regular.woff2') format('woff2'),
-    url('SpaceGrotesk-Regular.woff') format('woff');
+        url('SpaceGrotesk-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: block;

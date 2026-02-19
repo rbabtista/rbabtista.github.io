@@ -107,7 +107,6 @@ clients:
     - count: 2184
       label: "Expert Employees"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -134,7 +133,7 @@ clients:
       <!-- /column -->
     </div>
     <!-- /.row -->
-
+    
     <div class="row">
       <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
         {% include components/sections/contact/contact-form.html %}
@@ -142,7 +141,6 @@ clients:
       <!-- /column -->
     </div>
     <!-- /.row -->
-
   </div>
   <!-- /.container -->
 </section>
@@ -150,9 +148,9 @@ clients:
 
 {% include components/sections/contact/clients.html %}
 
-{% include components/footer/footer.html
-style= "default"
-bg_color= "bg-dark"
-text_color= "text-inverse"
+{% include components/footer/footer.html 
+  style= "default"
+  bg_color= "bg-dark"
+  text_color= "text-inverse"
 %}
 </div>

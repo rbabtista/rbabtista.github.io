@@ -8,9 +8,8 @@ category: Design
 featured: true
 header_style: overlay
 sidebar_position: right
-header_image: /assets/img/photos/bg5.webp
-featured_image: /assets/img/photos/b1.webp
-featured: true
+header_image: /assets/img/photos/something.webp
+featured_image: /assets/img/photos/something.webp
 excerpt: Learn how design thinking has evolved over the past decade and how it is transforming user experiences in the digital age.
 tags: 
   - UX Design

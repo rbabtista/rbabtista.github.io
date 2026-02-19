@@ -1,32 +1,14 @@
 {
   "members": [
     {
-      "name": "Yongqin Yu",
-      "role": "Two Rivers Fisheries",
-      "avatar_image": "/assets/img/avatars/avatar.webp",
-      "avatar_image2x": "/assets/img/avatars/avatar.webp",
-      "bio_image": "/assets/img/avatars/avatar.webp",
-      "bio_image2x": "/assets/img/avatars/avatar.webp",
+      "name": "Dr. Ann Marty",
+      "bio": "Dr. Ann Marty is a retired Family Physician from St. Genevieve, MO. She earned an MD at the University of Missouri and then completed her residency in Family Medicine at Duke University.  Ann worked for more than 30 years for Carle Clinic and Physician Group in Monticello, Illinois. During her years in practice, Ann developed an interest in alternative and complementary medicine and was a strong proponent of healthy living and disease prevention. She is a member of International Assist Medical Missions (IAMM) and has participated in short-term medical trips to Haiti, the Dominican Republic, Nicaragua, and Kenya.",
+      "role": "Family Physician",
+      "avatar_image": "/assets/img/avatars/ann.webp",
+      "avatar_image2x": "/assets/img/avatars/ann.webp",
+      "bio_image": "/assets/img/avatars/ann.webp",
+      "bio_image2x": "/assets/img/avatars/ann.webp",
       "social": [
-        {
-          "url": "https://www.tworiversfisheries.com/",
-          "icon": ""
-        }
-      ]
-    },
-    {
-      "name": "Joyce Liti Njenga",
-      "role": "Lecturer",
-      "bio": "Joyce Liti Njenga is a Senior Research Scientist, Fisheries and Aquaculture at Jomo Kenyatta University of Agriculture & Technology. Her work focuses on training and research in Fisheries and Aquaculture. She conducts workshops for small and medium scale farmers in Kenya to reduce poverty and improve local livelihoods. She has also been involved with the Food and Agriculture Organization and World Vision to address gender inclusivity in fisheries. She has also been instrumental in training county officers on fisheries and aquaculture techniques across Kenya. Joyce is passionate about skills development and knowledge dissemination which has shown to reduce unemployment, increase productivity, and improve standards of living.",
-      "avatar_image": "/assets/img/avatars/avatar.webp",
-      "avatar_image2x": "/assets/img/avatars/avatar.webp",
-      "bio_image": "/assets/img/avatars/avatar.webp",
-      "bio_image2x": "/assets/img/avatars/avatar.webp",
-      "social": [
-        {
-          "url": "https://www.jkuat.ac.ke/",
-          "icon": ""
-        }
       ]
     },
     {
@@ -38,17 +20,6 @@
       "bio_image": "/assets/img/avatars/mary.webp",
       "bio_image2x": "/assets/img/avatars/mary.webp",
       "social": []
-    },
-    {
-      "name": "Dr. Ann Marty",
-      "bio": "Dr. Ann Marty is a retired Family Physician from St. Genevieve, MO. She earned an MD at the University of Missouri and then completed her residency in Family Medicine at Duke University.  Ann worked for more than 30 years for Carle Clinic and Physician Group in Monticello, Illinois. During her years in practice, Ann developed an interest in alternative and complementary medicine and was a strong proponent of healthy living and disease prevention. She is a member of International Assist Medical Missions (IAMM) and has participated in short-term medical trips to Haiti, the Dominican Republic, Nicaragua, and Kenya.",
-      "role": "",
-      "avatar_image": "/assets/img/avatars/ann.webp",
-      "avatar_image2x": "/assets/img/avatars/ann.webp",
-      "bio_image": "/assets/img/avatars/ann.webp",
-      "bio_image2x": "/assets/img/avatars/ann.webp",
-      "social": [
-      ]
     },
     {
       "name": "Dr. Kiruba Krishnaswamy",
@@ -83,6 +54,7 @@
     {
       "name": "Dr. Chung-ho Lin",
       "role": "Metabolomics, University of Missouri",
+      "bio": "Lin is the lead scientist for the bioremediation, natural products and bioanalytical programs at the Center for Agroforestry at University of Missouri. His primary research involves the use of plants, microbes and engineered enzymes for bioremediation, ecological restoration, and development of bioeconomy. His bioremediation research focuses on bioremediation of organic pollutants and human pathogens.",
       "avatar_image": "/assets/img/avatars/chungho.webp",
       "avatar_image2x": "/assets/img/avatars/chungho.webp",
       "bio_image": "/assets/img/avatars/chungho.webp",

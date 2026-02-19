@@ -27,7 +27,7 @@ black_logo_2x: "/assets/img/logo-dark@2x.webp"
 light_logo_1x: "/assets/img/logo-light.webp"
 light_logo_2x: "/assets/img/logo-light@2x.webp"
 
-address: 'Moonshine St. 14/05 Light City, London, United Kingdom'
+address: '1809 Limerick Ln, Columbia, MO 65202, United States'
 address_01: 'Moonshine St. <br>14/05 Light City,<br /> London, United Kingdom'
 phone_number: "+00 (123) 456 78 90"
 phone_number2: "+00 (987) 654 32 10"
@@ -61,14 +61,14 @@ mailchimp_form: "#"
 
 gallery:
   images:
-    - img: "/assets/images/art/z1.svg"
-    - img: "/assets/images/art/z2.svg"
-    - img: "/assets/images/art/z3.svg"
-    - img: "/assets/images/art/z4.svg"
-    - img: "/assets/images/art/z5.svg"
-    - img: "/assets/images/art/z6.svg"
-    - img: "/assets/images/art/z7.svg"
-    - img: "/assets/images/art/z8.svg"
+  - img: "/assets/images/art/z1.svg"
+  - img: "/assets/images/art/z2.svg"
+  - img: "/assets/images/art/z3.svg"
+  - img: "/assets/images/art/z4.svg"
+  - img: "/assets/images/art/z5.svg"
+  - img: "/assets/images/art/z6.svg"
+  - img: "/assets/images/art/z7.svg"
+  - img: "/assets/images/art/z8.svg"
 
 languages:
   - name: "En"

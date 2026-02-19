@@ -18,12 +18,8 @@ social:
     url: https://instagram.com/tortoizthemes
 ---
 
-Tortoiz Themes is a leading design studio specializing in premium website templates and UI/UX design solutions. Our team
-combines creative vision with technical expertise to deliver digital experiences that help businesses stand out online.
+Tortoiz Themes is a leading design studio specializing in premium website templates and UI/UX design solutions. Our team combines creative vision with technical expertise to deliver digital experiences that help businesses stand out online.
 
-We believe in design that serves both aesthetics and functionality, creating templates that are not just visually
-appealing but also optimized for performance, accessibility, and conversion.
+We believe in design that serves both aesthetics and functionality, creating templates that are not just visually appealing but also optimized for performance, accessibility, and conversion.
 
-Our portfolio includes a wide range of templates for various industries, from corporate websites to e-commerce
-platforms, blogs, and landing pages. Each design is meticulously crafted with attention to detail and built with the
-latest web technologies to ensure responsiveness and cross-browser compatibility.
+Our portfolio includes a wide range of templates for various industries, from corporate websites to e-commerce platforms, blogs, and landing pages. Each design is meticulously crafted with attention to detail and built with the latest web technologies to ensure responsiveness and cross-browser compatibility.

@@ -117,7 +117,7 @@ toc: true
       </div>
     </div>
   </section>
-
+  
   <section id="snippet-1-4">
     <h2 class="mb-5 mt-n15 pt-15 zindex-n">Documentation Navigation Example</h2>
     <div class="card mb-12">
@@ -143,26 +143,25 @@ docs_navigation:
       - title: "Folder Structure"
         url: "/docs/folder-structure"
 
-- title: "Customization"
-  url: "/docs/customization"
-  children:
-    - title: "Theme Configuration"
-      url: "/docs/theme-config"
-    - title: "Styling"
-      url: "/docs/styling"
+  - title: "Customization"
+    url: "/docs/customization"
+    children:
+      - title: "Theme Configuration"
+        url: "/docs/theme-config"
+      - title: "Styling"
+        url: "/docs/styling"
 
-- title: "Advanced"
-  url: "/docs/advanced"
-  children:
-    - title: "Performance"
-      url: "/docs/performance"
-    - title: "SEO Optimization"
-      url: "/docs/seo"</code></pre>
+  - title: "Advanced"
+    url: "/docs/advanced"
+    children:
+      - title: "Performance"
+        url: "/docs/performance"
+      - title: "SEO Optimization"
+        url: "/docs/seo"</code></pre>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
   </section>
 </section>
 
@@ -257,7 +256,6 @@ docs_navigation:
         </table>
       </div>
     </div>
-
   </section>
 
 </section>

@@ -112,15 +112,13 @@ header_image: /assets/img/photos/bg.webp
 sidebar_position: right
 
 # Left Sidebar
-
 sidebar_position: left
 
 # No Sidebar
-
 sidebar_position: false</code></pre>
-</div>
-</div>
-</div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -353,11 +351,10 @@ comments: true
 ---
 
 ## Introduction
-
 Your post content here...</code></pre>
-</div>
-</div>
-</div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -393,10 +390,9 @@ likes: 10
 ---
 
 ## Introduction
-
 Your post content here...</code></pre>
-</div>
-</div>
-</div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

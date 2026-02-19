@@ -34,14 +34,9 @@ additional_info: |
   - Environmental response system
 ---
 
-"Digital Horizons" is an immersive installation that transforms a 500-square-meter museum space into a responsive
-digital environment. The project explores the relationship between human movement, digital art, and architectural space
-through a sophisticated system of projections, sensors, and sound design.
+"Digital Horizons" is an immersive installation that transforms a 500-square-meter museum space into a responsive digital environment. The project explores the relationship between human movement, digital art, and architectural space through a sophisticated system of projections, sensors, and sound design.
 
-The installation uses advanced motion tracking to create personalized experiences for each visitor. As people move
-through the space, their movements generate unique visual and auditory responses, creating an ever-changing digital
-landscape. The projection system maps content onto both fixed architectural elements and suspended translucent screens,
-creating multiple layers of visual depth.
+The installation uses advanced motion tracking to create personalized experiences for each visitor. As people move through the space, their movements generate unique visual and auditory responses, creating an ever-changing digital landscape. The projection system maps content onto both fixed architectural elements and suspended translucent screens, creating multiple layers of visual depth.
 
 Key technical innovations include:
 
@@ -50,6 +45,4 @@ Key technical innovations include:
 3. Implementation of an AI system that learns from visitor interactions to evolve the installation over time
 4. Integration of environmental data to influence the installation's behavior
 
-The project has welcomed over 50,000 visitors in its first three months, with an average engagement time of 45 minutes.
-It has been particularly successful in attracting younger audiences to the museum, with 60% of visitors under the age of
-35.
+The project has welcomed over 50,000 visitors in its first three months, with an average engagement time of 45 minutes. It has been particularly successful in attracting younger audiences to the museum, with 60% of visitors under the age of 35.

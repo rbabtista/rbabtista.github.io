@@ -71,16 +71,14 @@ meta_twitter_image: "/assets/img/meta-image.webp"  # Image used for Twitter card
 color_scheme: # Aqua Fuchsia Grape Green Leaf Navy Orange Pink Purple Red Sky Violet Yellow
 
 # Site Wide Theme Font Setting
-
 font_scheme: # dm , space , thicccboi , urbanist
 
 # Site Wide Font Icons Setting (FontAwesome, Unicons, etc.)
-
 font_icons_scheme: # https://unicons.iconscout.com/release/v4.0.8/css/line.css</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 </section>

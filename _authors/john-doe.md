@@ -16,11 +16,8 @@ social:
     url: https://linkedin.com/in/johndoe
 ---
 
-John Doe is a passionate Content Strategist with over a decade of experience in digital marketing and content creation.
-He specializes in crafting engaging narratives that connect brands with their audiences.
+John Doe is a passionate Content Strategist with over a decade of experience in digital marketing and content creation. He specializes in crafting engaging narratives that connect brands with their audiences.
 
-With expertise in SEO optimization, conversion-focused copywriting, and content planning, John has helped numerous
-companies transform their digital presence and achieve measurable results through strategic content initiatives.
+With expertise in SEO optimization, conversion-focused copywriting, and content planning, John has helped numerous companies transform their digital presence and achieve measurable results through strategic content initiatives.
 
-When not developing content strategies, John enjoys photography, hiking, and exploring new coffee shops around New York
-City.
+When not developing content strategies, John enjoys photography, hiking, and exploring new coffee shops around New York City.

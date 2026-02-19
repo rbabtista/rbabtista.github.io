@@ -22,50 +22,40 @@ $font-family-serif: "DM Serif Display";
   word-spacing: normal !important;
   letter-spacing: normal !important;
 }
-
 .display-1 {
   @include font-size(2.6rem);
   line-height: 1.1
 }
-
 .display-2 {
   @include font-size(2.4rem);
   line-height: 1.15
 }
-
 .display-3 {
   @include font-size(2.3rem);
   line-height: 1.15
 }
-
 .display-4 {
   @include font-size(2rem);
   line-height: 1.2
 }
-
 .display-5 {
   @include font-size(1.8rem);
   line-height: 1.2
 }
-
 .display-6 {
   @include font-size(1.6rem);
   line-height: 1.25
 }
-
 h2.post-title,
 .h2.post-title {
   @include font-size(1.4rem);
 }
-
 h3.post-title,
 .h3.post-title {
   @include font-size(1.2rem);
 }
-
 .counter-wrapper .counter {
   @include font-size(2.1rem);
-
   &.counter-lg {
     @include font-size(2.3rem);
   }

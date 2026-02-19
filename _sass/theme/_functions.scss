@@ -13,7 +13,6 @@
   }
   @return $result;
 }
-
 // Color contrast
 // See https://github.com/twbs/bootstrap/pull/30168
 @function color-contrast($background,
@@ -27,7 +26,8 @@
     $contrast-ratio: contrast-ratio($background, $color);
     @if $contrast-ratio > $min-contrast-ratio {
       @return $color;
-    } @else if $contrast-ratio > $max-ratio {
+    }
+    @else if $contrast-ratio > $max-ratio {
       $max-ratio: $contrast-ratio;
       $max-ratio-color: $color;
     }
@@ -35,7 +35,6 @@
   @warn "Found no color leading to #{$min-contrast-ratio}:1 contrast ratio against #{$background}...";
   @return $max-ratio-color;
 }
-
 // URL Friendly Color
 @function url-color($colour) {
   @return '%23' + str-slice('#{$colour}', 2, -1)

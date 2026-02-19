@@ -11,22 +11,17 @@
   background-color: $breadcrumb-bg;
   @include border-radius($breadcrumb-border-radius);
 }
-
 .breadcrumb-item {
   display: flex;
   color: $breadcrumb-color;
-
   a {
     color: inherit;
-
     &:hover {
       color: $breadcrumb-hover-color;
     }
   }
-
   + .breadcrumb-item {
     padding-left: $breadcrumb-item-padding-x;
-
     &::before {
       font-family: $font-family-unicons;
       font-weight: normal;
@@ -40,22 +35,18 @@
     }
   }
 }
-
 .breadcrumb.text-white .breadcrumb-item {
   &:hover,
   &.active {
     color: var(--#{$prefix}white);
   }
 }
-
 .breadcrumb.text-white .breadcrumb-item a {
   color: var(--#{$prefix}white);
-
   &:hover {
     border-color: var(--#{$prefix}white);
   }
 }
-
 .breadcrumb.text-white .breadcrumb-item + .breadcrumb-item::before {
   color: rgba(var(--#{$prefix}white-rgb), 0.5);
 }

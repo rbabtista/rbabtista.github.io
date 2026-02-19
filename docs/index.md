@@ -4,7 +4,6 @@ title: Getting Started
 description: Complete guide to installing and setting up the Sandbox Jekyll theme
 toc: true
 ---
-
 <section id="snippet-1" class="wrapper pt-16">
 <h2 class="display-5 mb-8">Getting Started with Sandbox Theme</h2>
 
@@ -184,22 +183,20 @@ baseurl: ""
 url: ""
 
 # Build settings
-
 markdown: kramdown
 permalink: /blog/:title/
 
 # Collections
-
 collections:
-projects:
-output: true
-permalink: /projects/:path/
-authors:
-output: true
-permalink: /authors/:path/</code></pre>
-</div>
-</div>
-</div>
+  projects:
+    output: true
+    permalink: /projects/:path/
+  authors:
+    output: true
+    permalink: /authors/:path/</code></pre>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 </section>

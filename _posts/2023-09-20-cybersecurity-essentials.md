@@ -15,11 +15,10 @@ tags:
   - Data Protection
 ---
 
+
 ## Why Cybersecurity Matters for Small Businesses
 
-Small businesses are increasingly becoming targets for cybercriminals. According to recent studies, over 43% of cyber
-attacks target small businesses, yet only 14% are prepared to defend themselves. The misconception that small businesses
-are too insignificant to be targeted is precisely what makes them vulnerable.
+Small businesses are increasingly becoming targets for cybercriminals. According to recent studies, over 43% of cyber attacks target small businesses, yet only 14% are prepared to defend themselves. The misconception that small businesses are too insignificant to be targeted is precisely what makes them vulnerable.
 
 ### The Cost of Cyber Attacks
 
@@ -29,8 +28,7 @@ The financial implications of a cyber attack can be devastating for small busine
 - 60% of small businesses close within six months of a cyber attack
 - Recovery can take weeks or months, resulting in significant operational disruption
 
-Beyond the immediate financial impact, businesses also face damage to their reputation, loss of customer trust, and
-potential legal liabilities.
+Beyond the immediate financial impact, businesses also face damage to their reputation, loss of customer trust, and potential legal liabilities.
 
 ## Essential Cybersecurity Measures
 
@@ -38,8 +36,7 @@ Implementing these fundamental security measures can significantly reduce your r
 
 ### 1. Employee Training and Awareness
 
-Your employees are both your first line of defense and potentially your greatest vulnerability. Regular training should
-cover:
+Your employees are both your first line of defense and potentially your greatest vulnerability. Regular training should cover:
 
 - How to identify phishing attempts
 - Password management best practices
@@ -103,6 +100,4 @@ Creating a culture of security awareness is one of the most effective ways to pr
 4. Consider consulting with a cybersecurity professional
 5. Review and update your security measures quarterly
 
-By taking a proactive approach to cybersecurity, small businesses can significantly reduce their risk and ensure they're
-prepared to respond effectively if an incident does occur. Remember that cybersecurity is an ongoing process, not a
-one-time project. Staying vigilant and adapting to new threats is essential for long-term security.
+By taking a proactive approach to cybersecurity, small businesses can significantly reduce their risk and ensure they're prepared to respond effectively if an incident does occur. Remember that cybersecurity is an ongoing process, not a one-time project. Staying vigilant and adapting to new threats is essential for long-term security.

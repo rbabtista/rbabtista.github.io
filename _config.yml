@@ -10,7 +10,7 @@ sass:
   sass_dir: _sass
   # Enable source maps in development, disable in production
   sourcemap: never # Valid values: 'development' (default), 'always', 'never'
-
+  
 
 # Plugins
 plugins:
@@ -74,7 +74,7 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-
+      
 
 # Exclude from processing and watching
 exclude:

@@ -20,7 +20,7 @@
                  style="top: 0.5rem; left: -1.7rem;"></div>
 
             <!-- GRID START -->
-            <div class="row g-6">
+            <div class="row g-6 justify-content-center">
                 {% for member in site.data.team2.members %}
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="card h-100">
@@ -36,7 +36,7 @@
                             <nav class="nav social mb-0">
                                 {% for social in member.social %}
                                 <a href="{{ social.url }}" target="_blank" rel="noopener">
-                                    <i class="{{ social.icon }}"></i>
+                                    <p class="mb-1"><i class="{{ social.icon }}"></i> READ MORE</p>
                                 </a>
                                 {% endfor %}
                             </nav>

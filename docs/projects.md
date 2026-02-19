@@ -59,15 +59,15 @@ gallery:
     permalink: /projects/:path/
 
 pagination:
-enabled: true
-collections:
-- name: 'projects'
-per_page: 9
-permalink: '/projects/page:num/'</code></pre>
-</div>
-</div>
-</div>
-</div>
+  enabled: true
+  collections:
+    - name: 'projects'
+      per_page: 9
+      permalink: '/projects/page:num/'</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>
 

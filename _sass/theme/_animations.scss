@@ -9,7 +9,6 @@
     opacity: 1;
   }
 }
-
 @keyframes fadeInDown {
   from {
     opacity: 0;
@@ -20,7 +19,6 @@
     transform: none;
   }
 }
-
 //----------------------------------------------------------//
 //	PRICING ANIMATION
 //----------------------------------------------------------//
@@ -34,7 +32,6 @@
     transform: translateY(80%);
   }
 }
-
 @keyframes priceShow {
   0% {
     opacity: 0;
@@ -45,7 +42,6 @@
     transform: translateY(0);
   }
 }
-
 //----------------------------------------------------------//
 //	RIPPLE ANIMATION
 //----------------------------------------------------------//
@@ -59,7 +55,6 @@
     opacity: 0;
   }
 }
-
 @keyframes ripple-2 {
   0% {
     transform: scale(1);
@@ -69,25 +64,22 @@
     transform: scale(1.7);
     opacity: 0;
   }
-}
-
-//----------------------------------------------------------//
+}//----------------------------------------------------------//
 //	LOADER ANIMATION
 //----------------------------------------------------------//
 @keyframes loader-scale {
   0% {
-    transform: scale(0);
-    opacity: 0;
+      transform: scale(0);
+      opacity: 0;
   }
   50% {
-    opacity: 1;
+      opacity: 1;
   }
   100% {
-    transform: scale(1);
-    opacity: 0;
+      transform: scale(1);
+      opacity: 0;
   }
 }
-
 //----------------------------------------------------------//
 //	LOADER
 //----------------------------------------------------------//
@@ -100,13 +92,11 @@
   background: $body-bg;
   z-index: 9999;
   transition: 0.5s all;
-
   &.done {
     visibility: hidden;
     opacity: 0;
   }
 }
-
 .page-loader:before,
 .swiper-hero:before,
 .gloader {
@@ -125,19 +115,16 @@
   border-radius: 50%;
   animation: loader-scale 1s ease-out infinite;
 }
-
 .bg-dark > .swiper-hero:before,
 .gloader {
   border-color: var(--#{$prefix}white);
 }
-
 //----------------------------------------------------------//
 //	ANIMATE.CSS
 //----------------------------------------------------------//
 :root {
   --animate-delay: 0.5s;
 }
-
 //----------------------------------------------------------//
 //	DISABLE TRANSITION
 //----------------------------------------------------------//

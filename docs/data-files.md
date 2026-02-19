@@ -31,17 +31,16 @@ toc: true
           - title: Services II
             url: /services2/
 
-- title: Blocks
-  type: mega-menu-icon
-  items:
-    - title: About
-      url: /docs/blocks/about.html
-      icon: /assets/img/demos/block1.svg</code></pre>
+  - title: Blocks
+    type: mega-menu-icon
+    items:
+      - title: About
+        url: /docs/blocks/about.html
+        icon: /assets/img/demos/block1.svg</code></pre>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
   </section>
 
   <section id="snippet-1-2">
@@ -88,17 +87,17 @@ meta_og_image: "/assets/img/meta-image.webp"</code></pre>
     title: Popular Posts
     posts: []
     default_image: /assets/img/photos/a
-
-column_2:
-tags:
-title: Tags
-items:
-- name: Still Life
-url: /tag/still-life</code></pre>
-</div>
-</div>
-</div>
-</div>
+  
+  column_2:
+    tags:
+      title: Tags
+      items:
+        - name: Still Life
+          url: /tag/still-life</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="snippet-2-2">

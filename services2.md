@@ -176,7 +176,6 @@ community:
     - count: 2184
       label: "Expert Employees"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -199,10 +198,10 @@ community:
 {% include components/sections/services2/pricing.html %}
 {% include components/sections/services2/community.html %}
 
-{% include components/footer/footer.html
-style="default"
-bg_color="bg-dark"
-text_color="text-inverse"
-mt="mt-5 mt-md-16"
+{% include components/footer/footer.html 
+  style="default"
+  bg_color="bg-dark"
+  text_color="text-inverse"
+  mt="mt-5 mt-md-16"
 %}
 </div>

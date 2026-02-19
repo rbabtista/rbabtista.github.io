@@ -9,16 +9,15 @@
   background: none;
   border: 0;
   border-radius: 0.4rem;
-
+  
   &::before {
     content: $btn-close-content;
     font-size: $btn-close-font-size;
     color: $btn-close-color;
   }
-
+  
   &:hover {
     background-color: $btn-close-hover-bg;
-
     &::before {
       color: $btn-close-hover-color;
     }
@@ -34,14 +33,13 @@
 // Our custom styling for white variant
 .btn-close-white {
   background-color: $btn-close-light-bg;
-
+  
   &::before {
     color: $btn-close-light-color;
   }
-
+  
   &:hover {
     background-color: $btn-close-light-hover-bg;
-
     &::before {
       color: $btn-close-light-hover-color;
     }
@@ -51,20 +49,18 @@
 // Dark mode support
 [data-bs-theme="dark"] .btn-close {
   background-color: $btn-close-light-bg;
-
+  
   &::before {
     color: $btn-close-light-color;
   }
-
+  
   &:hover {
     background-color: $btn-close-light-hover-bg;
-
     &::before {
       color: $btn-close-light-hover-color;
     }
   }
 }
-
 .btn-close[data-bs-dismiss="modal"] {
   position: absolute;
   top: 0.7rem;

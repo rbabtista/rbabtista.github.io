@@ -34,8 +34,4 @@ additional_gallery:
   - url: "/assets/img/photos/pp38"
     alt: "Digital Applications"
 ---
-
-The branding campaign for Innovative Brands aimed to create a strong visual identity that reflects the company's values
-and mission. Our design team developed a comprehensive brand system that includes logo variations, typography
-guidelines, marketing materials, and digital assets. The new branding has helped the client differentiate themselves in
-a competitive market, with increased brand recognition and customer engagement.
+The branding campaign for Innovative Brands aimed to create a strong visual identity that reflects the company's values and mission. Our design team developed a comprehensive brand system that includes logo variations, typography guidelines, marketing materials, and digital assets. The new branding has helped the client differentiate themselves in a competitive market, with increased brand recognition and customer engagement.

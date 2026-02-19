@@ -23,14 +23,8 @@ carousel_images:
   - "/assets/img/photos/pp16.webp"
 ---
 
-This commissioned photography series explores the relationship between modern architecture, natural light, and the
-surrounding environment. Shot over a period of six months across various cities, the collection examines how
-contemporary architectural designs interact with their urban contexts.
+This commissioned photography series explores the relationship between modern architecture, natural light, and the surrounding environment. Shot over a period of six months across various cities, the collection examines how contemporary architectural designs interact with their urban contexts.
 
-Each image was carefully composed to highlight geometric patterns, dramatic shadows, and the interplay of materials,
-creating a visual narrative that celebrates innovative architectural design. The series has been featured in a special
-exhibition at the Design Museum and published as a limited edition art book.
+Each image was carefully composed to highlight geometric patterns, dramatic shadows, and the interplay of materials, creating a visual narrative that celebrates innovative architectural design. The series has been featured in a special exhibition at the Design Museum and published as a limited edition art book.
 
-The project challenged conventional architectural photography by emphasizing abstract compositions and emotional
-responses to built environments rather than documentary representation. Special attention was given to capturing these
-structures at different times of day to showcase how changing light transforms their appearance and character.
+The project challenged conventional architectural photography by emphasizing abstract compositions and emotional responses to built environments rather than documentary representation. Special attention was given to capturing these structures at different times of day to showcase how changing light transforms their appearance and character.

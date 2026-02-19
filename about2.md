@@ -126,7 +126,6 @@ contact:
       text: "sandbox@email.com"
       link: "mailto:sandbox@email.com"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -149,9 +148,9 @@ contact:
 {% include components/sections/about2/brands.html %}
 {% include components/sections/about2/contact.html %}
 
-{% include components/footer/footer.html
-style="dark"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="dark"
+  bg_color="bg-dark"
+  text_color="text-inverse"
 %}
 </div>

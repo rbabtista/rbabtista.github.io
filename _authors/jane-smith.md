@@ -16,12 +16,8 @@ social:
     url: https://dribbble.com/janesmith
 ---
 
-Jane Smith is an award-winning UX designer with a passion for creating beautiful, functional, and accessible digital
-experiences. With a background in psychology and visual design, Jane brings a unique perspective to every project she
-works on.
+Jane Smith is an award-winning UX designer with a passion for creating beautiful, functional, and accessible digital experiences. With a background in psychology and visual design, Jane brings a unique perspective to every project she works on.
 
-Her design philosophy centers around putting users first and creating intuitive interfaces that solve real problems. She
-has worked with startups and enterprise clients across healthcare, fintech, and e-commerce sectors.
+Her design philosophy centers around putting users first and creating intuitive interfaces that solve real problems. She has worked with startups and enterprise clients across healthcare, fintech, and e-commerce sectors.
 
-Jane regularly speaks at design conferences and leads workshops on design thinking methodologies. In her free time, she
-enjoys urban sketching and mentoring aspiring designers.
+Jane regularly speaks at design conferences and leads workshops on design thinking methodologies. In her free time, she enjoys urban sketching and mentoring aspiring designers.

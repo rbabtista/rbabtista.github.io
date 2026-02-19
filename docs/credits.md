@@ -5,6 +5,7 @@ description: Credits for Sandbox Jekyll theme
 toc: true
 ---
 
+ 
           <section id="snippet-1" class="wrapper pt-16">
             <h2 class="mb-5">JS</h2>
             <div class="card">

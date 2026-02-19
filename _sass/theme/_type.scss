@@ -7,16 +7,13 @@ blockquote {
   @include font-size($blockquote-font-size);
   line-height: $line-height-base;
   font-weight: $blockquote-font-weight;
-
   &.border-0 {
     padding-left: 0;
   }
-
   &.icon {
     position: relative;
     border: 0;
     padding: 0;
-
     &:before {
       content: $icon-quote;
       position: absolute;
@@ -28,11 +25,9 @@ blockquote {
       z-index: 1;
     }
   }
-
   &.icon-top {
     padding-top: 3.75rem;
     position: relative;
-
     &:before {
       content: $icon-quote-top;
       color: $gray-400;
@@ -42,43 +37,35 @@ blockquote {
       top: 0;
       left: -0.3rem;
     }
-
     &.text-white:before {
       color: var(--#{$prefix}white);
     }
   }
-
   &.text-center.icon-top:before {
     left: 50%;
     transform: translateX(-52%);
   }
 }
-
 .blockquote-footer {
   font-weight: $blockquote-footer-weight;
   margin-top: 0;
   text-transform: uppercase;
   letter-spacing: $letter-spacing-lg;
 }
-
 .blockquote-details {
   display: flex;
   align-items: center;
   text-align: left;
-
   p {
     @include font-size($font-size-base);
   }
-
   .info {
     padding-left: 1rem;
   }
-
   .icon-img img {
     width: 3.5rem !important;
   }
 }
-
 //----------------------------------------------------------//
 //	DROPCAP
 //----------------------------------------------------------//
@@ -90,7 +77,6 @@ blockquote {
   font-weight: 500;
   padding: 0;
   margin: 0.2rem 0.6rem 0 0;
-
   &.rounded-circle {
     @include font-size(1.4rem);
     height: 2.3rem;
@@ -103,18 +89,15 @@ blockquote {
     justify-content: center;
   }
 }
-
 //----------------------------------------------------------//
 //	UNORDERED LIST
 //----------------------------------------------------------//
 .unordered-list {
   @include list-unstyled();
-
   li {
     position: relative;
     padding-left: 1rem;
   }
-
   > li:before {
     font-family: sans-serif;
     position: absolute;
@@ -123,7 +106,6 @@ blockquote {
     @include font-size(1rem);
     content: $icon-dot;
   }
-
   @each $color,
   $value in $colors {
     &.bullet-#{$color} li:before {
@@ -131,22 +113,18 @@ blockquote {
     }
   }
 }
-
 //----------------------------------------------------------//
 //	ICON LIST
 //----------------------------------------------------------//
 .icon-list {
   @include list-unstyled();
-
   li {
     position: relative;
     padding-left: 1.25rem;
   }
-
   &.bullet-bg li {
     padding-left: 1.5rem;
   }
-
   @each $color,
   $value in $bullet-soft {
     &.bullet-soft-#{$color} i {
@@ -174,19 +152,16 @@ blockquote {
       color: var(--#{$prefix}white) !important;
     }
   }
-
   &.bullet-white i,
   &.bullet-bg i.bullet-white {
     color: var(--#{$prefix}primary) !important;
   }
-
   i {
     position: absolute;
     top: -0.2rem;
     left: 0;
     @include font-size(1rem);
   }
-
   &.bullet-bg i {
     border-radius: 100%;
     width: 1rem;
@@ -197,27 +172,23 @@ blockquote {
     letter-spacing: normal;
     text-align: center;
     display: table;
-
     &:before {
       vertical-align: middle;
       display: table-cell;
     }
   }
 }
-
 .widget .list-unstyled:not(.tag-list) li + li,
 .unordered-list li + li,
 .icon-list:not(.row) li + li {
   margin-top: 0.35rem;
 }
-
 //----------------------------------------------------------//
 //	UNSTYLED LIST
 //----------------------------------------------------------//
 .list-unstyled li a.active {
   color: var(--#{$prefix}primary) !important;
 }
-
 //----------------------------------------------------------//
 //	FILTER LIST
 //----------------------------------------------------------//
@@ -226,16 +197,13 @@ blockquote {
     margin: 0 1rem 0 0;
     display: inline;
   }
-
   ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: inline;
-
     li {
       display: inline;
-
       + li:before {
         content: "";
         display: inline-block;
@@ -246,10 +214,8 @@ blockquote {
         vertical-align: 0.15rem;
         background: rgba($gray-900, 0.2);
       }
-
       a {
         cursor: pointer;
-
         &.active,
         &:hover {
           color: var(--#{$prefix}primary);
@@ -257,46 +223,38 @@ blockquote {
       }
     }
   }
-
   &.dark-filter ul li {
     + li:before {
       background: rgba(var(--#{$prefix}white-rgb), 0.2);
     }
-
     a.active,
     a:hover {
       color: var(--#{$prefix}white);
     }
   }
 }
-
 .isotope-filter {
   position: relative;
   z-index: 5;
 }
-
 .filter.basic-filter {
   p {
     margin: 0 1rem 0 0;
     display: inline;
     color: $headings-color;
-    font-weight: $headings-font-weight;
+    font-weight: $headings-font-weight; 
   }
-
   ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: inline;
-
     li {
       display: inline;
       margin-right: 1rem;
-
       a {
         cursor: pointer;
         color: $body-color;
-
         &.active,
         &:hover {
           color: var(--#{$prefix}primary);
@@ -304,7 +262,6 @@ blockquote {
       }
     }
   }
-
   &.dark-filter ul li {
     a.active,
     a:hover {
@@ -312,19 +269,16 @@ blockquote {
     }
   }
 }
-
 //----------------------------------------------------------//
 //	IMAGE LIST
 //----------------------------------------------------------//
 .image-list {
   padding: 0;
   margin: 0;
-
   p,
   .meta {
     margin: 0;
   }
-
   &:after {
     content: "";
     display: block;
@@ -332,32 +286,25 @@ blockquote {
     clear: both;
     visibility: hidden;
   }
-
   > li {
     clear: both;
     display: block;
     overflow: hidden;
-
     + li {
       margin-top: 1rem;
     }
   }
-
-  li a:hover {
-  }
-
+  li a:hover {}
   figure {
     float: left;
     width: 3.5rem;
     height: 3.5rem;
   }
-
   .post-content {
     margin-left: 4.25rem;
     margin-bottom: 0;
   }
 }
-
 //----------------------------------------------------------//
 //	TAG LIST
 //----------------------------------------------------------//
@@ -365,7 +312,6 @@ blockquote {
   display: inline-block;
   margin-right: 0.2rem;
   margin-bottom: 0.1rem;
-
   a:before {
     font-style: normal;
     content: "#";
@@ -373,18 +319,15 @@ blockquote {
     padding-right: 0.2rem;
   }
 }
-
 .widget .tag-list li,
 .blog.single .post .tag-list li {
   margin-top: 0;
   margin-bottom: 0.45rem;
 }
-
 .widget .tag-list li a {
   display: flex;
   align-items: center;
 }
-
 //----------------------------------------------------------//
 //	META
 //----------------------------------------------------------//
@@ -398,34 +341,27 @@ blockquote {
   font-weight: $font-weight-bold;
   color: $secondary;
 }
-
 .meta {
   @include font-size(0.65rem);
 }
-
 .post-category {
   margin-bottom: 0.4rem;
 }
-
 .post-meta {
   list-style: none;
   padding: 0;
   margin: 0;
   @include font-size(0.7rem);
   color: $secondary;
-
   li {
     a {
       color: $secondary;
-
       &:hover {
         color: var(--#{$prefix}primary);
         border-color: var(--#{$prefix}primary);
       }
     }
-
     display: inline-block;
-
     &:before {
       content: "";
       display: inline-block;
@@ -437,31 +373,25 @@ blockquote {
       background: $secondary;
       opacity: 0.5;
     }
-
     i {
       padding-right: 0.2rem;
       vertical-align: -0.05rem;
     }
   }
 }
-
 .post-meta.text-white li:before {
   background: var(--#{$prefix}white);
 }
-
 .post-header .post-meta {
   @include font-size(0.8rem);
-
   li:before {
     margin: 0 0.6rem 0 0.4rem;
   }
 }
-
 .post-meta li:first-child:before,
 article .post-meta li.ms-auto:before {
   display: none;
 }
-
 @media (max-width: 767px) {
   .card-footer .post-meta li.post-author,
   .card-footer .post-meta li.post-comments span {
@@ -473,39 +403,32 @@ article .post-meta li.ms-auto:before {
     display: none;
   }
 }
-
 //----------------------------------------------------------//
 //	GLYPHS
 //----------------------------------------------------------//
 .glyphs {
   padding: 0;
-
   li {
     display: block;
-
     svg {
       margin-bottom: 0.3rem;
       display: inline-block;
     }
-
     i:before {
       margin: 0;
       padding: 0;
       color: $main-dark;
       @include font-size(1.6rem);
     }
-
     span {
       margin: 0;
       display: block;
       color: $text-muted;
       @include font-size($font-size-sm);
     }
-
     .card-body {
       padding: 0.5rem 0.2rem 1rem;
     }
-
     .card-footer {
       padding: 0.5rem 0.2rem;
       cursor: pointer;
@@ -513,18 +436,15 @@ article .post-meta li.ms-auto:before {
     }
   }
 }
-
 .glyphs-svg li .card-body {
   padding-top: 1rem;
 }
-
 //----------------------------------------------------------//
 //	CODE
 //----------------------------------------------------------//
 .code-wrapper {
   margin-bottom: 0;
   position: relative;
-
   .btn-clipboard {
     font-family: $font-family-sans-serif;
     position: absolute;
@@ -536,21 +456,17 @@ article .post-meta li.ms-auto:before {
     padding: 0.1rem .45rem 0.1rem;
     z-index: 3;
   }
-
   pre {
     margin-bottom: 0;
   }
 }
-
 pre[class*=language-] {
   position: relative;
   padding-top: 2rem;
-
   &:focus {
     outline: none;
   }
 }
-
 :not(pre) > code[class*='language-'],
 pre[class*='language-'],
 pre {
@@ -559,16 +475,15 @@ pre {
   padding: 2rem;
   @include font-size($pre-font-size);
 }
-
 //----------------------------------------------------------//
 //	DOCS
 //----------------------------------------------------------//
-.external,
+.external, 
 .internal,
-.code,
+.code, 
 .terminal,
-.kbd,
-.folder,
+.kbd, 
+.folder, 
 .file,
 mark.doc {
   font-family: $font-family-monospace;
@@ -586,18 +501,16 @@ mark.doc {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
 }
-
 mark.doc {
   padding: $mark-padding;
   padding-bottom: 0.05rem;
 }
-
-.external:after,
-.internal:after,
-.code:before,
+.external:after, 
+.internal:after, 
+.code:before, 
 .terminal:before,
-.kbd:before,
-.folder:before,
+.kbd:before, 
+.folder:before, 
 .file:before {
   position: absolute;
   left: 0;
@@ -617,12 +530,10 @@ mark.doc {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .external,
 .internal {
   color: $body-color;
   padding: 0.05rem 1.6rem 0.05rem 0.4rem;
-
   &:after {
     color: $body-color;
     @include font-size(0.65rem);
@@ -631,64 +542,51 @@ mark.doc {
     margin-right: 0;
     margin-left: 0.4rem;
   }
-
   &.text-white:after {
     color: var(--#{$prefix}white);
   }
-
   &:not(.text-white):hover,
   &:not(.text-white):hover:after {
     color: var(--#{$prefix}primary);
   }
 }
-
 .external {
   padding-right: 1.4rem;
-
   &.my-0:after {
     padding-top: 0;
   }
-
   &:after {
     font-family: $font-family-custom-icons;
     content: $icon-external;
     @include font-size(0.7rem);
   }
 }
-
 .internal {
   padding-right: 1.4rem;
-
   &:after {
     content: $icon-internal;
     @include font-size(0.8rem);
   }
 }
-
 .code:before {
   @include font-size(0.85rem);
   content: $icon-code;
 }
-
 .terminal:before {
   font-family: $font-family-custom-icons;
   content: $icon-terminal;
   @include font-size(0.8rem);
 }
-
 .folder:before {
   content: $icon-folder;
 }
-
 .file:before {
   content: $icon-file;
 }
-
 .kbd:before {
   content: $icon-kbd;
   @include font-size(0.8rem);
 }
-
 //----------------------------------------------------------//
 //	TEXT COLORS
 //----------------------------------------------------------//
@@ -698,14 +596,12 @@ $value in $colors-soft {
     color: var(--#{$prefix}soft-#{$color}) !important;
   }
 }
-
 @each $color,
 $value in $colors-pale {
   .text-pale-#{$color} {
     color: var(--#{$prefix}pale-#{$color}) !important;
   }
 }
-
 //----------------------------------------------------------//
 //	TEXT GRADIENT
 //----------------------------------------------------------//
@@ -713,53 +609,42 @@ $value in $colors-pale {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
-
   em {
     letter-spacing: normal;
     padding-left: 0.05em;
     padding-right: 0.05em;
   }
-
   &.text-line.gradient-1:before {
     background: #f857a6;
   }
-
   &.text-line.gradient-2:before {
-    background: rgba(245, 177, 97, 1);
+    background: rgba(245,177,97,1);
   }
-
   &.text-line.gradient-3:before {
     background: #FBDA61;
   }
-
   &.text-line.gradient-4:before {
     background: #9040db;
   }
-
   &.text-line.gradient-5:before {
     background: #4158D0;
   }
-
   &.text-line.gradient-6:before {
     background: #08AEEA;
   }
-
   &.text-line.gradient-7:before {
     background: #0093e9;
   }
 }
-
 //----------------------------------------------------------//
 //	FONT SIZES
 //----------------------------------------------------------//
 .fs-sm {
   @include font-size($font-size-sm !important);
 }
-
 .fs-lg {
   @include font-size($font-size-lg !important);
 }
-
 @for $i from 1 through 200 {
   .fs-#{$i} {
     @include font-size(0.05rem*$i !important);

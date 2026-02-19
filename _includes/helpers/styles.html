@@ -1,4 +1,4 @@
-<link rel="shortcut icon" href="{{site.data.theme.favicon | relative_url}}"/>
+<link rel="shortcut icon" href="{{site.data.theme.favicon | relative_url}}" />
 <link rel="stylesheet" href="{{ "/assets/css/plugins.css" | relative_url }}">
 {% if site.data.theme.font_icons_scheme %}
 <!-- Global Font Icons Scheme -->
@@ -26,8 +26,7 @@
 {% elsif page.custom_font %}
 {% for stylesheet in page.custom_font %}
 <!-- Custom Font Scheme Page Wise-->
-<link rel="preload" type="text/css" href="{{ site.baseurl }}/assets/css/fonts/{{ stylesheet }}.css"
-      onload="this.rel='stylesheet'">
+<link rel="preload" type="text/css" href="{{ site.baseurl }}/assets/css/fonts/{{ stylesheet }}.css" onload="this.rel='stylesheet'">
 {% endfor %}
 {% endif %}
 

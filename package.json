@@ -555,6 +555,7 @@
     "yargs-parser": "^21.1.1",
     "yauzl": "^2.10.0"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tortoiz-Themes/sandbox-new-jekyll.git"
@@ -569,6 +570,7 @@
   "devDependencies": {
     "sass": "^1.85.1"
   },
+  
   "scripts": {
     "sass": "sass _sass/style.scss:assets/css/main.css",
     "sass:watch": "sass --watch _sass/style.scss:assets/css/main.css"

@@ -5,112 +5,94 @@ description: "Learn how to use accordion in Sandbox."
 toc: true
 ---
 <div class="accordion accordion-wrapper" id="accordionSimpleExample">
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                Item One
-            </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
-            <div class="accordion-body">
-                Content for item one.
-            </div>
-        </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Item One
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+      <div class="accordion-body">
+        Content for item one.
+      </div>
     </div>
+  </div>
 
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
-                Item Two
-            </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
-            <div class="accordion-body">
-                Content for item two.
-            </div>
-        </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Item Two
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+      <div class="accordion-body">
+        Content for item two.
+      </div>
     </div>
+  </div>
 </div>
 
-
-<section id="snippet-1" class="wrapper pt-16">
-    <h2 class="mb-3">Simple Accordion</h2>
-    <p class="lead mb-8">Omit the <code class="code">data-bs-parent</code> attribute on each <code class="code">.accordion-collapse</code>
-        to make accordion items stay open when another item is opened.</p>
-    <div class="card">
-        <div class="card-body mb-n2">
-            <div class="accordion accordion-wrapper" id="accordionSimpleExample">
-                <div class="card plain accordion-item">
+  
+   
+          <section id="snippet-1" class="wrapper pt-16">
+            <h2 class="mb-3">Simple Accordion</h2>
+            <p class="lead mb-8">Omit the <code class="code">data-bs-parent</code> attribute on each <code class="code">.accordion-collapse</code> to make accordion items stay open when another item is opened.</p>
+            <div class="card">
+              <div class="card-body mb-n2">
+                <div class="accordion accordion-wrapper" id="accordionSimpleExample">
+                  <div class="card plain accordion-item">
                     <div class="card-header" id="headingSimpleOne">
-                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSimpleOne"
-                                aria-expanded="true" aria-controls="collapseSimpleOne"> Professional Design
-                        </button>
+                      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSimpleOne" aria-expanded="true" aria-controls="collapseSimpleOne"> Professional Design </button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseSimpleOne" class="accordion-collapse collapse show"
-                         aria-labelledby="headingSimpleOne">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseSimpleOne" class="accordion-collapse collapse show" aria-labelledby="headingSimpleOne" >
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
-                </div>
-                <!--/.accordion-item -->
-                <div class="card plain accordion-item">
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card plain accordion-item">
                     <div class="card-header" id="headingSimpleTwo">
-                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSimpleTwo"
-                                aria-expanded="false" aria-controls="collapseSimpleTwo"> Top-Notch Support
-                        </button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSimpleTwo" aria-expanded="false" aria-controls="collapseSimpleTwo"> Top-Notch Support </button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseSimpleTwo" class="accordion-collapse collapse" aria-labelledby="headingSimpleTwo"
-                         data-bs-parent="#accordionSimpleExample">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseSimpleTwo" class="accordion-collapse collapse" aria-labelledby="headingSimpleTwo" data-bs-parent="#accordionSimpleExample">
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
-                </div>
-                <!--/.accordion-item -->
-                <div class="card plain accordion-item">
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card plain accordion-item">
                     <div class="card-header" id="headingSimpleThree">
-                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSimpleThree"
-                                aria-expanded="false" aria-controls="collapseSimpleThree"> Header and Slider Options
-                        </button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSimpleThree" aria-expanded="false" aria-controls="collapseSimpleThree"> Header and Slider Options </button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseSimpleThree" class="accordion-collapse collapse"
-                         aria-labelledby="headingSimpleThree" data-bs-parent="#accordionSimpleExample">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseSimpleThree" class="accordion-collapse collapse" aria-labelledby="headingSimpleThree" data-bs-parent="#accordionSimpleExample">
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
                 </div>
-                <!--/.accordion-item -->
-            </div>
-            <!--/.accordion -->
-        </div>
-        <!--/.card-body -->
-        <div class="card-footer position-relative">
-            <a class="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">View
-                example's code</a>
-        </div>
-        <!--/.card-footer -->
-        <div id="collapse-1" class="card-footer bg-dark p-0 accordion-collapse collapse">
-            <div class="code-wrapper">
-                <div class="code-wrapper-inner">
+                <!--/.accordion -->
+              </div>
+              <!--/.card-body -->
+              <div class="card-footer position-relative">
+                <a class="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-1">View example's code</a>
+              </div>
+              <!--/.card-footer -->
+              <div id="collapse-1" class="card-footer bg-dark p-0 accordion-collapse collapse">
+                <div class="code-wrapper">
+                  <div class="code-wrapper-inner">
 <pre class="language-html"><code>&lt;div class=&quot;accordion accordion-wrapper&quot; id=&quot;accordionSimpleExample&quot;&gt;
   &lt;div class=&quot;card plain accordion-item&quot;&gt;
     &lt;div class=&quot;card-header&quot; id=&quot;headingSimpleOne&quot;&gt;
@@ -156,94 +138,74 @@ toc: true
   &lt;!--/.accordion-item --&gt;
 &lt;/div&gt;
 &lt;!--/.accordion --&gt;</code></pre>
+                  </div>
+                  <!--/.code-wrapper-inner -->
                 </div>
-                <!--/.code-wrapper-inner -->
+                <!--/.code-wrapper -->
+              </div>
+              <!--/.card-footer -->
             </div>
-            <!--/.code-wrapper -->
-        </div>
-        <!--/.card-footer -->
-    </div>
-    <!--/.card -->
-</section>
-<section id="snippet-2" class="wrapper pt-16">
-    <h2 class="mb-3">Accordion with Background</h2>
-    <p class="lead mb-8">Omit the <code class="code">data-bs-parent</code> attribute on each <code class="code">.accordion-collapse</code>
-        to make accordion items stay open when another item is opened.</p>
-    <div class="card">
-        <div class="card-body mb-n4">
-            <div class="accordion accordion-wrapper" id="accordionExample">
-                <div class="card accordion-item">
+            <!--/.card -->
+          </section>
+          <section id="snippet-2" class="wrapper pt-16">
+            <h2 class="mb-3">Accordion with Background</h2>
+            <p class="lead mb-8">Omit the <code class="code">data-bs-parent</code> attribute on each <code class="code">.accordion-collapse</code> to make accordion items stay open when another item is opened.</p>
+            <div class="card">
+              <div class="card-body mb-n4">
+                <div class="accordion accordion-wrapper" id="accordionExample">
+                  <div class="card accordion-item">
                     <div class="card-header" id="headingOne">
-                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne"> Professional Design
-                        </button>
+                      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Professional Design </button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                         data-bs-parent="#accordionExample">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus
-                                et magnis dis parturient montes.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
-                </div>
-                <!--/.accordion-item -->
-                <div class="card accordion-item">
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card accordion-item">
                     <div class="card-header" id="headingTwo">
-                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                aria-expanded="false" aria-controls="collapseTwo"> Top-Notch Support
-                        </button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Top-Notch Support </button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                         data-bs-parent="#accordionExample">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus
-                                et magnis dis parturient montes.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
-                </div>
-                <!--/.accordion-item -->
-                <div class="card accordion-item">
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card accordion-item">
                     <div class="card-header" id="headingThree">
-                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                aria-expanded="false" aria-controls="collapseThree"> Header and Slider Options
-                        </button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Header and Slider Options </button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                         data-bs-parent="#accordionExample">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus
-                                et magnis dis parturient montes.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
                 </div>
-                <!--/.accordion-item -->
-            </div>
-            <!--/.accordion -->
-        </div>
-        <!--/.card-body -->
-        <div class="card-footer position-relative">
-            <a class="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">View
-                example's code</a>
-        </div>
-        <!--/.card-footer -->
-        <div id="collapse-2" class="card-footer bg-dark p-0 accordion-collapse collapse">
-            <div class="code-wrapper">
-                <div class="code-wrapper-inner">
+                <!--/.accordion -->
+              </div>
+              <!--/.card-body -->
+              <div class="card-footer position-relative">
+                <a class="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-2">View example's code</a>
+              </div>
+              <!--/.card-footer -->
+              <div id="collapse-2" class="card-footer bg-dark p-0 accordion-collapse collapse">
+                <div class="code-wrapper">
+                  <div class="code-wrapper-inner">
 <pre class="language-html"><code>&lt;div class=&quot;accordion accordion-wrapper&quot; id=&quot;accordionExample&quot;&gt;
   &lt;div class=&quot;card accordion-item&quot;&gt;
     &lt;div class=&quot;card-header&quot; id=&quot;headingOne&quot;&gt;
@@ -289,94 +251,74 @@ toc: true
   &lt;!--/.accordion-item --&gt;
 &lt;/div&gt;
 &lt;!--/.accordion --&gt;</code></pre>
+                  </div>
+                  <!--/.code-wrapper-inner -->
                 </div>
-                <!--/.code-wrapper-inner -->
+                <!--/.code-wrapper -->
+              </div>
+              <!--/.card-footer -->
             </div>
-            <!--/.code-wrapper -->
-        </div>
-        <!--/.card-footer -->
-    </div>
-    <!--/.card -->
-</section>
-<section id="snippet-3" class="wrapper py-16">
-    <h2 class="mb-3">Accordion with Icon</h2>
-    <p class="lead mb-8">Omit the <code class="code">data-bs-parent</code> attribute on each <code class="code">.accordion-collapse</code>
-        to make accordion items stay open when another item is opened.</p>
-    <div class="card">
-        <div class="card-body mb-n2">
-            <div class="accordion accordion-wrapper" id="accordionIconExample">
-                <div class="card accordion-item icon">
+            <!--/.card -->
+          </section>
+          <section id="snippet-3" class="wrapper py-16">
+            <h2 class="mb-3">Accordion with Icon</h2>
+            <p class="lead mb-8">Omit the <code class="code">data-bs-parent</code> attribute on each <code class="code">.accordion-collapse</code> to make accordion items stay open when another item is opened.</p>
+            <div class="card">
+              <div class="card-body mb-n2">
+                <div class="accordion accordion-wrapper" id="accordionIconExample">
+                  <div class="card accordion-item icon">
                     <div class="card-header" id="headingIconOne">
-                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseIconOne"
-                                aria-expanded="true" aria-controls="collapseIconOne"><span><i
-                                class="uil uil-shield-exclamation"></i></span>Secure Payments
-                        </button>
+                      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseIconOne" aria-expanded="true" aria-controls="collapseIconOne"><span><i class="uil uil-shield-exclamation"></i></span>Secure Payments</button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseIconOne" class="accordion-collapse collapse show" aria-labelledby="headingIconOne"
-                         data-bs-parent="#accordionIconExample">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseIconOne" class="accordion-collapse collapse show" aria-labelledby="headingIconOne" data-bs-parent="#accordionIconExample">
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
-                </div>
-                <!--/.accordion-item -->
-                <div class="card accordion-item icon">
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card accordion-item icon">
                     <div class="card-header" id="headingIconTwo">
-                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseIconTwo"
-                                aria-expanded="false" aria-controls="collapseIconTwo"><span><i
-                                class="uil uil-check-circle"></i></span>Daily Updates
-                        </button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseIconTwo" aria-expanded="false" aria-controls="collapseIconTwo"><span><i class="uil uil-check-circle"></i></span>Daily Updates</button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseIconTwo" class="accordion-collapse collapse" aria-labelledby="headingIconTwo"
-                         data-bs-parent="#accordionIconExample">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseIconTwo" class="accordion-collapse collapse" aria-labelledby="headingIconTwo" data-bs-parent="#accordionIconExample">
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
-                </div>
-                <!--/.accordion-item -->
-                <div class="card accordion-item icon">
+                  </div>
+                  <!--/.accordion-item -->
+                  <div class="card accordion-item icon">
                     <div class="card-header" id="headingIconThree">
-                        <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseIconThree"
-                                aria-expanded="false" aria-controls="collapseIconThree"><span><i
-                                class="uil uil-chart-line"></i></span>Market Research
-                        </button>
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseIconThree" aria-expanded="false" aria-controls="collapseIconThree"><span><i class="uil uil-chart-line"></i></span>Market Research</button>
                     </div>
                     <!--/.card-header -->
-                    <div id="collapseIconThree" class="accordion-collapse collapse" aria-labelledby="headingIconThree"
-                         data-bs-parent="#accordionIconExample">
-                        <div class="card-body">
-                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-                                massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent
-                                commodo cursus magna, vel.</p>
-                        </div>
-                        <!--/.card-body -->
+                    <div id="collapseIconThree" class="accordion-collapse collapse" aria-labelledby="headingIconThree" data-bs-parent="#accordionIconExample">
+                      <div class="card-body">
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel.</p>
+                      </div>
+                      <!--/.card-body -->
                     </div>
                     <!--/.accordion-collapse -->
+                  </div>
+                  <!--/.accordion-item -->
                 </div>
-                <!--/.accordion-item -->
-            </div>
-            <!--/.accordion -->
-        </div>
-        <!--/.card-body -->
-        <div class="card-footer position-relative">
-            <a class="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">View
-                example's code</a>
-        </div>
-        <!--/.card-footer -->
-        <div id="collapse-3" class="card-footer bg-dark p-0 accordion-collapse collapse">
-            <div class="code-wrapper">
-                <div class="code-wrapper-inner">
+                <!--/.accordion -->
+              </div>
+              <!--/.card-body -->
+              <div class="card-footer position-relative">
+                <a class="collapse-link collapsed stretched-link" data-bs-toggle="collapse" href="#collapse-3">View example's code</a>
+              </div>
+              <!--/.card-footer -->
+              <div id="collapse-3" class="card-footer bg-dark p-0 accordion-collapse collapse">
+                <div class="code-wrapper">
+                  <div class="code-wrapper-inner">
 <pre class="language-html"><code>&lt;div class=&quot;accordion accordion-wrapper&quot; id=&quot;accordionIconExample&quot;&gt;
   &lt;div class=&quot;card accordion-item icon&quot;&gt;
     &lt;div class=&quot;card-header&quot; id=&quot;headingIconOne&quot;&gt;
@@ -422,13 +364,13 @@ toc: true
   &lt;!--/.accordion-item --&gt;
 &lt;/div&gt;
 &lt;!--/.accordion --&gt;</code></pre>
+                  </div>
+                  <!--/.code-wrapper-inner -->
                 </div>
-                <!--/.code-wrapper-inner -->
+                <!--/.code-wrapper -->
+              </div>
+              <!--/.card-footer -->
             </div>
-            <!--/.code-wrapper -->
-        </div>
-        <!--/.card-footer -->
-    </div>
-    <!--/.card -->
-</section>
+            <!--/.card -->
+          </section>
           

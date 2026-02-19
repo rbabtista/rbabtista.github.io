@@ -93,7 +93,6 @@ contact_form:
       height: "150px"
       col: "col-12"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -119,9 +118,9 @@ contact_form:
 </section>
 <!-- /section -->
 
-{% include components/footer/footer.html
-style="default"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="default"
+  bg_color="bg-dark"
+  text_color="text-inverse"
 %}
 </div>

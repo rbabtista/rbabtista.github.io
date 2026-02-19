@@ -4,13 +4,11 @@
 video.player {
   max-width: 100%;
 }
-
 .plyr {
   border-radius: $border-radius;
   position: relative;
   z-index: 2;
 }
-
 .plyr__control--overlaid {
   border: 0;
   padding: 1.25rem;
@@ -18,7 +16,6 @@ video.player {
   box-shadow: $box-shadow;
   color: $main-dark;
   opacity: 1;
-
   &:focus,
   &:hover {
     background: var(--#{$prefix}white) !important;
@@ -27,10 +24,8 @@ video.player {
     @include transition($link-transition);
   }
 }
-
 .plyr--video .plyr__controls {
   background: linear-gradient(transparent, rgba($gray-900, 0.2));
-
   .plyr__control {
     &.plyr__tab-focus,
     &:hover,
@@ -39,11 +34,9 @@ video.player {
     }
   }
 }
-
 .plyr--full-ui input[type="range"] {
   color: var(--#{$prefix}primary);
 }
-
 .plyr__control--overlaid::before,
 .plyr__control--overlaid::after,
 .btn-circle.ripple::before,
@@ -61,18 +54,15 @@ video.player {
   animation: ripple-1 2s infinite ease-in-out;
   z-index: -1;
 }
-
 .plyr__control--overlaid::after,
 .btn-circle.ripple::after {
   opacity: 0.6;
   animation: ripple-2 2s infinite ease-in-out;
   animation-delay: 0.5s;
 }
-
 .plyr--video.plyr--menu-open {
   overflow: hidden;
 }
-
 @each $color,
 $value in $colors {
   .btn-#{$color}.btn-circle.ripple::before,
@@ -80,7 +70,6 @@ $value in $colors {
     background: var(--#{$prefix}#{$color});
   }
 }
-
 @each $color,
 $value in $colors-pale {
   .btn-soft-#{$color}.btn-circle.ripple::before,

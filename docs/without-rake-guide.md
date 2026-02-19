@@ -30,12 +30,11 @@ toc: true
 bundle exec jekyll serve --livereload --livereload-min-delay 5
 
 # Build for production
-
 JEKYLL_ENV=production bundle exec jekyll build</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="snippet-1-2">
@@ -60,12 +59,11 @@ JEKYLL_ENV=production bundle exec jekyll build</code></pre>
 gem install bundler
 
 # Install project dependencies
-
 bundle install</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>
 
@@ -127,17 +125,15 @@ sass:
 magick convert input.webp -quality 90 output.webp
 
 # Batch convert (PowerShell)
-
-Get-ChildItem -Path "assets/img" -Recurse -Include *.webp,*.png |
+Get-ChildItem -Path "assets/img" -Recurse -Include *.webp,*.png | 
 ForEach-Object { magick convert $_.FullName -quality 90 "$($_.DirectoryName)\$($_.BaseName).webp" }
 
 # Batch convert (Bash/Linux)
-
 find assets/img -type f \( -iname "*.webp" -o -iname "*.png" \) -exec convert {} -quality 90 {}.webp \;</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>
 
@@ -217,9 +213,9 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 echo "Processing images..."
 find assets/img -type f \( -iname "*.webp" -o -iname "*.png" \) -exec convert {} -quality 90 {}.webp \;</code></pre>
-</div>
-</div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </section>

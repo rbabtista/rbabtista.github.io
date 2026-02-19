@@ -3,106 +3,71 @@ layout: default
 title: About
 permalink: /about/
 custom_color:
-custom_font: 
+custom_font:
 scroll_top_btn:
   enable: true
 
 # Header / Hero Section
 hero:
-  title: "Hello! This is Sandbox"
-  subtitle: "A company turning ideas into beautiful things."
-  bg_image: /assets/img/photos/bg12.webp
+  title: "Hello! This is Wish Upon a Fish"
+  subtitle: "A US-based nonprofit that uses fish protein powder to fortify the diets of women and children in developing countries"
+  bg_image: /assets/img/photos/orange-fish.webp
   bg_color: "bg-gray"
 
 # Who We Are Section
 who_we_are:
-  title: "Background"
-#  subtitle: "We are a digital and branding company that believes in the power of creative strategy and along with great design."
+  title: "In summary"
+  #  subtitle: "We are a digital and branding company that believes in the power of creative strategy and along with great design."
   text: "About 1 in 9 people worldwide suffer from a low intake of nutrients and vitamins due to carbohydrate rich diets. Protein deficiencies cause poor health outcomes such as anemia, stunting and/or wasting. Fortified foods are the best way to treat and prevent these conditions. Use of invasive species is a promising, but overlooked strategy to address global malnutrition. The Mississippi River and its tributaries have an enormous supply of Asian carp that are available for humanitarian aid. Fish / soy powder is a healthy and cost-effective way to fortify local foods, thus increasing the nutritional benefits of women and children in developing countries."
   icon: "megaphone"
-  list_items:
-    - "Aenean eu leo quam ornare curabitur blandit tempus."
-    - "Nullam quis risus eget urna mollis ornare donec elit."
-    - "Etiam porta sem malesuada magna mollis euismod."
-    - "Fermentum massa vivamus faucibus amet euismod."
   images:
-    - src: /assets/img/photos/about2.webp
-      src2x: /assets/img/photos/about2@2x.webp
-    - src: /assets/img/photos/about3.webp
-      src2x: /assets/img/photos/about3@2x.webp
+    - src: /assets/img/photos/Asian_Carp_1.webp
+      src2x: /assets/img/photos/Asian_Carp_1.webp
+    - src: /assets/img/photos/carp.webp
+      src2x: /assets/img/photos/carp.webp
+      
+services:
+  bg_class: "wrapper bg-dark text-inverse"
+  title_tag: "Rationale"
+  title_class: "fs-16 text-uppercase text-white mb-3"
+  main_title: "Why fish powder? A practical, compassionate, and scalable solution."
+  main_title_class: "display-3 text-white mb-10"
+  service_items:
+    - icon: "/assets/img/icons/lineal/users.svg"
+      title: Humanity
+      text: "New ideas are required to feed ~8 billion people worldwide, yet invasive species have been overlooked as a valuable source of protein. Let’s be creative."
 
-# How It Works Section
-how_it_works:
-  title: "How It Works?"
-  subtitle: "Find out everything you need to know and more about how we create our business process models."
-  text: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare.\n\nNullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis."
-  button:
-    label: "Learn More"
-    url: "#"
-  steps:
-    - number: "01"
-      title: "Collect Ideas"
-      text: "Nulla vitae elit libero pharetra augue dapibus."
-    - number: "02" 
-      title: "Data Analysis"
-      text: "Vivamus sagittis lacus vel augue laoreet."
-    - number: "03"
-      title: "Finalize Product"
-      text: "Cras mattis consectetur purus sit amet."
+    - icon: "/assets/img/icons/lineal/world.svg"
+      title: Planet
+      text: "Mother earth is groaning, partly due to invasive species. Removal is a pathway to ecological restoration for native fish—one that also benefits people and local communities. Let’s be environmental stewards."
 
-# Testimonials Section
-testimonials:
-  bg_color: "bg-soft-primary"
-  image: /assets/img/photos/co1.png
-  image2x: /assets/img/photos/co1@2x.png
-  
+    - icon: "/assets/img/icons/lineal/fish.svg"
+      title: Food
+      text: "Over 730 million people experience global hunger, yet the U.S. has an overly abundant and underutilized supply of freshwater fish. Protein-rich fish is a better restoration strategy than starchy foods. Let’s be pragmatic."
+
+    - icon: "/assets/img/icons/lineal/heart-handshake.svg"
+      title: Mercy
+      text: "Jesus showed compassion to individuals with the greatest needs and fewest resources, and used fish in a miraculous way to feed thousands. Over 2 billion humans are malnourished, including many women and children in developing countries. Let’s practice altruism."
+
+    - icon: "/assets/img/icons/lineal/cpu.svg"
+      title: Technology
+      text: "Modern equipment safely processes large amounts of fish. After removing by-products, the flesh is mixed with soy and repurposed into a low-moisture powder—no refrigeration or freezing needed—reducing transport costs. The protein concentrate can fortify local foods eaten by local people. Let’s be logical."
+
+    - icon: "/assets/img/icons/lineal/users-group.svg"
+      title: Partnerships
+      text: "Global problems require global thinking. Solving the food crisis at home and abroad demands multiple approaches—reimagine fish powder as one of them. Success requires cooperation with domestic and international partners and support from public and private funding. Let’s do this."
+      
 # Team Section
 team:
   title: "Board of Directors"
-#  subtitle: "Our Team"
+  #  subtitle: "Our Team"
   bg_color: "bg-light"
 
 team2:
   title: "Collaborators"
   #  subtitle: "Our Team"
   bg_color: "bg-light"
-  
-# Stats Section
-stats:
-  bg_color: "bg-soft-primary"
-  items:
-    - icon: check
-      count: 7518
-      label: "Completed Projects"
-    - icon: user
-      count: 3472
-      label: "Satisfied Customers"
-    - icon: briefcase-2
-      count: 2184
-      label: "Expert Employees"
-    - icon: award-2
-      count: 4523
-      label: "Awards Won"
-
-# Contact Section
-contact:
-  title: "Convinced yet? Let's make something great together."
-  icon: "telemarketer"
-  image: /assets/img/photos/about4.webp
-  image2x: /assets/img/photos/about4@2x.webp
-  info:
-    - icon: "location-pin-alt"
-      title: "Address"
-      text: "Moonshine St. 14/05 Light City, London, United Kingdom"
-    - icon: "phone-volume"
-      title: "Phone"
-      text: "00 (123) 456 78 90"
-    - icon: "envelope"
-      title: "E-mail"
-      text: "sandbox@email.com"
-      link: "mailto:sandbox@email.com"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-gray">
 {% include components/navbar/navbar.html 
@@ -119,16 +84,14 @@ contact:
 
 {% include components/sections/about/hero.html %}
 {% include components/sections/about/who-we-are.html %}
-{% include components/sections/about/testimonials.html %}
+{% include components/sections/about/services.html %}
 {% include components/sections/about/team.html %}
 {% include components/sections/about/team2.html %}
-{% include components/sections/about/stats.html %}
-{% include components/sections/about/contact.html %}
 
-{% include components/footer/footer.html
-style="default"
-container_padding="pt-16 pt-md-18 pb-13 pb-md-15"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="default"
+  container_padding="pt-16 pt-md-18 pb-13 pb-md-15"
+  bg_color="bg-dark"
+  text_color="text-inverse"
 %}
 </div>

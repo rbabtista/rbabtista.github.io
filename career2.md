@@ -146,7 +146,6 @@ contact:
     label: "Contact Us"
     url: "#"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -167,9 +166,9 @@ contact:
 {% include components/sections/career2/jobs.html %}
 {% include components/sections/career2/contact.html %}
 
-{% include components/footer/footer.html
-style="default"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="default"
+  bg_color="bg-dark"
+  text_color="text-inverse"
 %}
 </div>

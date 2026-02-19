@@ -93,7 +93,6 @@ more_jobs:
       type_bg: "bg-pale-blue text-blue"
       location: "Manchester, UK"
 ---
-
 <div class="content-wrapper">
 <header class="wrapper bg-soft-primary">
 {% include components/navbar/navbar.html 
@@ -112,9 +111,9 @@ more_jobs:
 {% include components/sections/career-job/job-content.html %}
 {% include components/sections/career-job/more-jobs.html %}
 
-{% include components/footer/footer.html
-style="default"
-bg_color="bg-dark"
-text_color="text-inverse"
+{% include components/footer/footer.html 
+  style="default"
+  bg_color="bg-dark"
+  text_color="text-inverse"
 %}
 </div>

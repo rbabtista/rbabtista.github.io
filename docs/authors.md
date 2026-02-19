@@ -81,12 +81,11 @@ slug: tortoiz-themes
           <div class="code-wrapper-inner">
 <pre class="language-markdown"><code>Tortoiz Themes is a leading design studio specializing in premium website templates and UI/UX design solutions. Our team combines creative vision with technical expertise to deliver digital experiences that help businesses stand out online.
 
-We believe in design that serves both aesthetics and functionality, creating templates that are not just visually
-appealing but also optimized for performance, accessibility, and conversion.</code></pre>
-</div>
-</div>
-</div>
-</div>
+We believe in design that serves both aesthetics and functionality, creating templates that are not just visually appealing but also optimized for performance, accessibility, and conversion.</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="snippet-2-2">
