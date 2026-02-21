@@ -18,35 +18,27 @@
                             <div class="navbar-brand w-100">
                                 <a href="{{ '/' | relative_url }}">
                                     {% if include.logoBoth %}
-                                    <img alt=""
-                                         class="logo-dark"
-                                         src="{{ site.data.theme.black_logo_1x | default: '/assets/img/logo-dark.webp' | relative_url }}"
-                                         srcset="{{ site.data.theme.black_logo_2x | default: '/assets/img/logo-dark@2x.webp' | relative_url }} 2x"/>
-                                    <img alt=""
-                                         class="logo-light"
-                                         src="{{ site.data.theme.light_logo_1x | default: '/assets/img/logo-light.webp' | relative_url }}"
-                                         srcset="{{ site.data.theme.light_logo_2x | default: '/assets/img/logo-light@2x.webp' | relative_url }} 2x"/>
+                                    <img class="logo-dark" src="{{ site.data.theme.black_logo_1x | default: '/assets/img/logo-dark.webp' | relative_url }}"
+                                         srcset="{{ site.data.theme.black_logo_2x | default: '/assets/img/logo-dark@2x.webp' | relative_url }} 2x" alt="" />
+                                    <img class="logo-light" src="{{ site.data.theme.light_logo_1x | default: '/assets/img/logo-light.webp' | relative_url }}"
+                                         srcset="{{ site.data.theme.light_logo_2x | default: '/assets/img/logo-light@2x.webp' | relative_url }} 2x" alt="" />
                                     {% elsif include.logoLight %}
-                                    <img alt=""
-                                         src="{{ site.data.theme.light_logo_1x | default: '/assets/img/logo-light.webp' | relative_url }}"
-                                         srcset="{{ site.data.theme.light_logo_2x | default: '/assets/img/logo-light@2x.webp' | relative_url }} 2x"/>
+                                    <img src="{{ site.data.theme.light_logo_1x | default: '/assets/img/logo-light.webp' | relative_url }}"
+                                         srcset="{{ site.data.theme.light_logo_2x | default: '/assets/img/logo-light@2x.webp' | relative_url }} 2x" alt="" />
                                     {% elsif include.logoAlt %}
-                                    <img alt=""
-                                         src="{{ site.data.theme.black_logo_1x | default: '/assets/img/logo-dark.webp' | relative_url }}"
-                                         srcset="{{ site.data.theme.black_logo_2x | default: '/assets/img/logo-dark@2x.webp' | relative_url }} 2x"/>
+                                    <img src="{{ site.data.theme.black_logo_1x | default: '/assets/img/logo-dark.webp' | relative_url }}"
+                                         srcset="{{ site.data.theme.black_logo_2x | default: '/assets/img/logo-dark@2x.webp' | relative_url }} 2x" alt="" />
                                     {% else %}
-                                    <img alt=""
-                                         src="{{ site.data.theme.logo_1x | default: '/assets/img/logo.webp' | relative_url }}"
-                                         srcset="{{ site.data.theme.logo_2x | default: '/assets/img/logo@2x.webp' | relative_url }} 2x"/>
+                                    <img src="{{ site.data.theme.logo_1x | default: '/assets/img/logo.webp' | relative_url }}"
+                                         srcset="{{ site.data.theme.logo_2x | default: '/assets/img/logo@2x.webp' | relative_url }} 2x" alt="" />
                                     {% endif %}
                                 </a>
                             </div>
                             <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                                 <!-- DEBUG START -->
                                 <div class="offcanvas-header d-lg-none">
-                                    <h3 class="text-white fs-30 mb-0">{{ site.data.theme.site_name }}</h3>
-                                    <button aria-label="Close" class="btn-close btn-close-white ms-auto"
-                                            data-bs-dismiss="offcanvas" type="button"></button>
+                                    <h3 class="text-white fs-30 mb-0">{{ site.data.theme.site_name | default: 'Sandbox' }}</h3>
+                                    <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <!-- DEBUG END -->
                                 <div class="offcanvas-body {% if include.centerNav %}ms-lg-auto{% endif %} d-flex flex-column h-100">
@@ -66,13 +58,10 @@
 
                                     <div class="offcanvas-footer d-lg-none">
                                         <div>
-                                            <a class="link-inverse"
-                                               href="mailto:{{ site.data.theme.email | default: 'info@email.com' }}">{{ site.data.theme.email | default: 'info@email.com'
-                                                }}</a>
+                                            <a href="mailto:{{ site.data.theme.email | default: 'info@email.com' }}" class="link-inverse">{{ site.data.theme.email | default: 'info@email.com' }}</a>
                                             <br>{{ site.data.theme.phone_number | default: '00 (123) 456 78 90' }}<br>
                                             <nav class="nav social social-white mt-4">
-                                                {% for social in site.data.theme.social_accounts.links
-                                                limit:site.data.theme.social_accounts.links_shown %}
+                                                {% for social in site.data.theme.social_accounts.links limit:site.data.theme.social_accounts.links_shown %}
                                                 <a href="{{ social.url }}"><i class="{{ social.icon }}"></i></a>
                                                 {% endfor %}
                                             </nav>
@@ -88,14 +77,12 @@
                                 <ul class="navbar-nav flex-row align-items-center ms-auto">
                                     {% if include.otherLanguageSelect %}
                                     <li class="nav-item dropdown language-select text-uppercase">
-                                        <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-item dropdown-toggle"
-                                           data-bs-toggle="dropdown" href="#" role="button">
+                                        <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             {{ site.data.theme.default_language | default: 'En' }}
                                         </a>
                                         <ul class="dropdown-menu">
                                             {% for language in site.data.theme.languages %}
-                                            <li class="nav-item"><a class="dropdown-item" href="{{ language.url }}">{{
-                                                language.name }}</a></li>
+                                            <li class="nav-item"><a class="dropdown-item" href="{{ language.url }}">{{ language.name }}</a></li>
                                             {% endfor %}
                                         </ul>
                                     </li>
@@ -104,8 +91,7 @@
                                     {% if include.otherSocial %}
                                     <li class="nav-item">
                                         <nav class="nav social social-muted mb-0 ms-auto me-4">
-                                            {% assign limit = site.data.social.social_accounts.links_shown | default: 4
-                                            %}
+                                            {% assign limit = site.data.social.social_accounts.links_shown | default: 4 %}
                                             {% for social in site.data.social.social_accounts.links limit:limit %}
                                             <a href="{{ social.url }}"><i class="{{ social.icon }}"></i></a>
                                             {% endfor %}
@@ -114,31 +100,23 @@
                                     {% endif %}
 
                                     {% if include.otherSearch %}
-                                    <li class="nav-item"><a class="nav-link" data-bs-target="#offcanvas-search"
-                                                            data-bs-toggle="offcanvas"><i
-                                            class="{{ site.data.theme.nav_icons.search | default: 'uil uil-search' }}"></i></a>
-                                    </li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search"><i class="{{ site.data.theme.nav_icons.search | default: 'uil uil-search' }}"></i></a></li>
                                     {% endif %}
 
                                     {% if include.otherInfo %}
-                                    <li class="nav-item"><a class="nav-link" data-bs-target="#offcanvas-info"
-                                                            data-bs-toggle="offcanvas"><i
-                                            class="{{ site.data.theme.nav_icons.info | default: 'uil uil-info-circle' }}"></i></a>
-                                    </li>
+                                    <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info"><i class="{{ site.data.theme.nav_icons.info | default: 'uil uil-info-circle' }}"></i></a></li>
                                     {% endif %}
 
                                     {% if include.otherBtn %}
                                     <li class="nav-item d-none d-md-block">
                                         {% if include.otherBtnModal %}
-                                        <a class="{{ include.otherBtnClassList | default: 'btn btn-sm btn-primary rounded-pill' }}"
-                                           data-bs-target="#{{ include.otherBtnModal }}"
+                                        <a href="#" class="{{ include.otherBtnClassList | default: 'btn btn-sm btn-primary rounded-pill' }}"
                                            data-bs-toggle="modal"
-                                           href="#">{{ include.otherBtnText }}</a>
+                                           data-bs-target="#{{ include.otherBtnModal }}">{{ include.otherBtnText }}</a>
                                         {% else %}
-                                        <a class="{{ include.otherBtnClassList | default: 'btn btn-sm btn-primary rounded-pill' }}"
-                                           href="{{ include.otherBtnLink }}"
-                                           target="_blank">{{
-                                            include.otherBtnText }}</a>
+                                        <a href="{{ include.otherBtnLink }}"
+                                           class="{{ include.otherBtnClassList | default: 'btn btn-sm btn-primary rounded-pill' }}"
+                                           target="_blank">{{ include.otherBtnText }}</a>
                                         {% endif %}
                                     </li>
                                     {% endif %}
@@ -146,25 +124,19 @@
                                     {% if include.otherLink %}
                                     <li class="nav-item d-none d-md-block">
                                         {% if include.otherLinkModal %}
-                                        <a class="nav-link"
-                                           data-bs-target="#{{ include.otherLinkModal }}"
+                                        <a href="#"
+                                           class="nav-link"
                                            data-bs-toggle="modal"
-                                           href="#">{{ include.otherLinkText
-                                            }}</a>
+                                           data-bs-target="#{{ include.otherLinkModal }}">{{ include.otherLinkText }}</a>
                                         {% else %}
-                                        <a %}
-                                           %}target="_blank"
-                                           class="nav-link" endif href="{{ include.otherLinkLink }}" if include.otherLinksNewTab {% {%>{{
-                                            include.otherLinkText }}</a>
+                                        <a href="{{ include.otherLinkLink }}"
+                                           class="nav-link" target="_blank">{{ include.otherLinkText }}</a>
                                         {% endif %}
                                     </li>
                                     {% endif %}
 
                                     {% if include.otherShop %}
-                                    <li class="nav-item"><a class="nav-link position-relative"
-                                                            data-bs-target="#offcanvas-cart" data-bs-toggle="offcanvas"><i
-                                            class="uil uil-shopping-cart"></i><span class="badge badge-cart bg-primary">{{ include.cartItemCount | default: '3' }}</span></a>
-                                    </li>
+                                    <li class="nav-item"><a class="nav-link position-relative" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-cart"><i class="uil uil-shopping-cart"></i><span class="badge badge-cart bg-primary">{{ include.cartItemCount | default: '3' }}</span></a></li>
                                     {% endif %}
 
                                     <li class="nav-item d-lg-none">
