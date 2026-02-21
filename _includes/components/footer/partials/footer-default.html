@@ -25,8 +25,8 @@
       <address class="pe-xl-15 pe-xxl-17">{{ site.data.footer.column_2.address | default: site.data.theme.address | default: 'Moonshine St. 14/05 Light City, London, United Kingdom' }}</address>
       <a href="mailto:{{ site.data.footer.column_2.email | default: site.data.theme.email | default: 'info@email.com' }}" {% if !include.lightText %}class="link-body"{% endif %}>
         {{ site.data.footer.column_2.email | default: site.data.theme.email | default: 'info@email.com' }}
-      </a><br /> 
-      {{ site.data.footer.column_2.phone | default: site.data.theme.phone | default: '00 (123) 456 78 90' }}
+      </a><br />
+      {{ site.data.footer.column_2.phone | default: site.data.theme.phone | default: '' }}
     </div>
     <!-- /.widget -->
   </div>

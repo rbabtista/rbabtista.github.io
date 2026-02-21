@@ -1,26 +1,26 @@
-<section class="wrapper {{ page.hero.bg_color }} position-relative overflow-hidden"
-         style="min-height: 420px; max-height: 620px;">
-  <!-- Background image layer -->
-  <figure class="position-absolute w-100 h-100 m-0"
-          style="inset: 0; z-index: 1;">
-    <img src="{{ page.hero.bg_image }}"
-         alt=""
-         class="w-100 h-100"
-         style="object-fit: cover;">
-  </figure>
+<section class="{{ page.hero.bg_class }}">
 
-  <!-- Content layer -->
-  <div class="container pt-10 pt-md-14 pb-10 pb-md-14 text-center position-relative"
-       style="z-index: 2;">
-    <div class="row">
-      <div class="col-xl-8 mx-auto">
-        <h1 class="display-1 mb-4 text-white">{{ page.hero.title }}</h1>
-        <p class="lead fs-lg mb-0 text-white">{{ page.hero.subtitle }}</p>
-      </div>
+    <!-- Background image layer -->
+    <figure class="position-absolute w-100 h-100 m-0"
+            style="inset: 0; z-index: 1;">
+        <img alt=""
+             class="w-100 h-100"
+             src="{{ page.hero.bg_image }}"
+             style="object-fit: cover;">
+    </figure>
+
+    <!-- Optional: dark overlay for readability -->
+    <div class="position-absolute w-100 h-100"
+         style="inset: 0; background: rgba(0,0,0,.35); z-index: 1;"></div>
+
+    <!-- Content layer -->
+    <div class="container pt-17 pt-md-19 pb-21 pb-lg-23 text-center position-relative"
+         style="z-index: 2;">
+        <div class="row">
+            <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                <h1 class="display-1 mb-4 text-white">{{ page.hero.title }}</h1>
+                <p class="lead fs-lg mb-0 text-white">{{ page.hero.subtitle }}</p>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <!-- Optional: dark overlay for readability -->
-  <div class="position-absolute w-100 h-100"
-       style="inset: 0; background: rgba(0,0,0,.35); z-index: 1;"></div>
 </section>

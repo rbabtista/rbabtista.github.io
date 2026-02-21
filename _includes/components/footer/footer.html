@@ -16,7 +16,7 @@
   - newsletter: Include newsletter form (specifically for style "default")
 {% endcomment %}
 
-{% assign footer_style = include.style | default: site.data.theme.footer.style | default: "default" %}
+{% assign footer_style = include.style | default: site.data.theme.footer.style | default: "three-column" %}
 {% assign bg_color = include.bg_color | default: site.data.theme.footer.bg_color | default: "bg-light" %}
 {% assign text_color = include.text_color | default: site.data.theme.footer.text_color | default: "" %}
 {% assign container_padding = include.container_padding | default: site.data.theme.footer.container_padding | default: "py-13 py-md-15" %}
@@ -29,7 +29,7 @@
   {% assign link_class = site.data.footer.link_class %}
 {% endif %}
 
-{% assign newsletter = include.newsletter | default: true %}
+{% assign newsletter = include.newsletter | default: false %}
 
 {% comment %}Handle CTA visibility and data based on footer style{% endcomment %}
 {% if footer_style == "centered" %}

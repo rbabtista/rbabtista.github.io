@@ -1,7 +1,7 @@
 ---
 layout: blog/standard
-title: Business News
-description: Welcome to our journal. Here you can find the latest company news and business articles.
+title: Resources
+description: Welcome to our resources. Here you can learn more about our work.
 pagination:
   enabled: true
 ---

@@ -1,9 +1,8 @@
 # General Settings
-site_name: Sandbox
-title: "Sandbox - Modern & Multipurpose Jekyll Theme"
+site_name: Wish Upon a Fish
+title: "Wish Upon a Fish"
 description: >- # this means to ignore newlines until "baseurl:"
-  An impressive and flawless site template that includes various UI elements and countless features, attractive
-   ready-made blocks and rich pages, basically everything you need to create a unique and professional website.
+  A US-based nonprofit that uses fish protein powder to fortify the diets of women and children in developing countries.
 favicon: "/assets/img/favicon.webp"
 
 # Seo Meta Settings
@@ -20,28 +19,15 @@ font_scheme: # dm , space , thicccboi , urbanist
 font_icons_scheme: # https://unicons.iconscout.com/release/v4.0.8/css/line.css
 
 # Sitewide Logo
-logo_1x: "/assets/img/logo.webp"
-logo_2x: "/assets/img/logo@2x.webp"
+logo_1x: "/assets/img/logo-light.webp"
+logo_2x: "/assets/img/logo-light.webp"
 black_logo_1x: "/assets/img/logo-dark.webp"
 black_logo_2x: "/assets/img/logo-dark@2x.webp"
 light_logo_1x: "/assets/img/logo-light.webp"
 light_logo_2x: "/assets/img/logo-light@2x.webp"
 
 address: '1809 Limerick Ln, Columbia, MO 65202, United States'
-address_01: 'Moonshine St. <br>14/05 Light City,<br /> London, United Kingdom'
-phone_number: "+00 (123) 456 78 90"
-phone_number2: "+00 (987) 654 32 10"
-email: "tortoizthemes@gmail.com"
-email_2: "support@tortoizthemes.com"
-copyright: "© 2025 Sandbox."
-copyright_text: "All rights reserved."
-
-#disqus comments
-disqus:
-  shortname: your-disqus-shortname
-  enabled: false
-  demo_mode: true   # <— Only show the "disabled" message if this is true
-  demo_message: "💡 Comments are disabled for this demo. Configure Disqus in theme.yml when ready!"
+email: "markmorgan@missouri.edu"
 
 
 #google analytics
@@ -70,26 +56,6 @@ gallery:
   - img: "/assets/images/art/z7.svg"
   - img: "/assets/images/art/z8.svg"
 
-languages:
-  - name: "En"
-    url: "#"
-  - name: "De"
-    url: "#"
-  - name: "Es"
-    url: "#"
-
-default_language: "En"
-
-contact_title: "Contact Info"
-
 #navbar html
 nav_icons:
   search: uil uil-search
-  info: uil uil-info-circle
-
-# 
-alert:
-  type: "Update"
-  text: "New version of our product is finally"
-  link_text: "here!"
-  link_url: "#"

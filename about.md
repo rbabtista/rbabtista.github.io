@@ -9,10 +9,10 @@ scroll_top_btn:
 
 # Header / Hero Section
 hero:
-  title: "Hello! This is Wish Upon a Fish"
+  title: "About Wish Upon a Fish"
   subtitle: "A US-based nonprofit that uses fish protein powder to fortify the diets of women and children in developing countries"
   bg_image: /assets/img/photos/orange-fish.webp
-  bg_color: "bg-gray"
+  bg_class: "wrapper gradient-8 bg-lines"
 
 # Who We Are Section
 who_we_are:
@@ -25,7 +25,7 @@ who_we_are:
       src2x: /assets/img/photos/Asian_Carp_1.webp
     - src: /assets/img/photos/carp.webp
       src2x: /assets/img/photos/carp.webp
-      
+
 services:
   bg_class: "wrapper bg-dark text-inverse"
   title_tag: "Rationale"
@@ -35,7 +35,7 @@ services:
   service_items:
     - icon: "/assets/img/icons/lineal/users.svg"
       title: Humanity
-      text: "New ideas are required to feed ~8 billion people worldwide, yet invasive species have been overlooked as a valuable source of protein. Let’s be creative."
+      text: "New ideas are required to feed ~8 billion people worldwide, yet invasive fish have been overlooked as a valuable source of protein. Let’s be creative."
 
     - icon: "/assets/img/icons/lineal/world.svg"
       title: Planet
@@ -47,16 +47,16 @@ services:
 
     - icon: "/assets/img/icons/lineal/heart-handshake.svg"
       title: Mercy
-      text: "Jesus showed compassion to individuals with the greatest needs and fewest resources, and used fish in a miraculous way to feed thousands. Over 2 billion humans are malnourished, including many women and children in developing countries. Let’s practice altruism."
+      text: "Jesus showed compassion to individuals with the greatest needs and fewest resources. He used fish in a miraculous way to feed the multitudes. Over 2 billion humans are malnourished, including many women and children in developing countries. Let’s practice altruism."
 
     - icon: "/assets/img/icons/lineal/cpu.svg"
       title: Technology
-      text: "Modern equipment safely processes large amounts of fish. After removing by-products, the flesh is mixed with soy and repurposed into a low-moisture powder—no refrigeration or freezing needed—reducing transport costs. The protein concentrate can fortify local foods eaten by local people. Let’s be logical."
+      text: "Modern equipment safely processes large amounts of food. After removing fish by-products, the flesh is mixed with soy and repurposed into a low-moisture powder—no refrigeration or freezing needed—thus reducing transport costs. The protein concentrate can be used to fortify local foods eaten by local people. Let’s be logical."
 
     - icon: "/assets/img/icons/lineal/users-group.svg"
       title: Partnerships
-      text: "Global problems require global thinking. Solving the food crisis at home and abroad demands multiple approaches—reimagine fish powder as one of them. Success requires cooperation with domestic and international partners and support from public and private funding. Let’s do this."
-      
+      text: "Global problems require global thinking. Addressing the food crisis at home and abroad demands multiple approaches—reimagine fish powder as one of the solutions. Success requires cooperation with domestic and international partners, supported by public and private funding. Let’s do this."
+
 # Team Section
 team:
   title: "Board of Directors"
@@ -68,16 +68,18 @@ team2:
   #  subtitle: "Our Team"
   bg_color: "bg-light"
 ---
+
 <div class="content-wrapper">
-<header class="wrapper bg-gray">
+<header class="position-absolute w-100 pt-1">
 {% include components/navbar/navbar.html 
-    classList="center-nav transparent navbar-light"
+    classList="center-nav transparent position-absolute navbar-dark caret-none"
+    logoLight=true
+    logoBoth=true
     otherClassList="w-100 d-flex ms-auto"
-    otherLanguageSelect=true
     otherBtn=true
-    otherBtnClassList="btn btn-sm btn-primary rounded-pill"
-    otherBtnText="Contact"
-    otherBtnLink="/contact"
+    otherBtnClassList= "btn btn-sm btn-white rounded-pill"
+    otherBtnText="Donate"
+    otherBtnLink="https://givebutter.com/wishuponafish"
 %}
 </header>
 <!-- /header -->
@@ -88,10 +90,9 @@ team2:
 {% include components/sections/about/team.html %}
 {% include components/sections/about/team2.html %}
 
-{% include components/footer/footer.html 
-  style="default"
-  container_padding="pt-16 pt-md-18 pb-13 pb-md-15"
-  bg_color="bg-dark"
-  text_color="text-inverse"
+{% include components/footer/footer.html
+style="default"
+bg_color="bg-dark"
+text_color="text-inverse"
 %}
 </div>

@@ -33,11 +33,3 @@ column_3:
       url: /blog
     - title: Contact
       url: /contact
-
-newsletter:
-  title: Our Newsletter
-  description: Subscribe to our newsletter to get our news & deals delivered to you.
-  button_text: Join
-  form_action: https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a
-  # Optional custom HTML form
-  #custom_form: ""

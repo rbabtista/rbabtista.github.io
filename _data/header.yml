@@ -19,7 +19,8 @@ styles:
     default_background_image: "/assets/img/photos/post-overlay-default.webp"
 
   blog-list:
-    section_classes: "wrapper bg-soft-primary"
+    section_classes: "wrapper gradient-8 bg-lines"
+    section_image: /assets/img/photos/orange-fish.webp
     container_classes: "pt-10 pb-19 pt-md-14 pb-md-20 text-center"
     column_classes: "col-md-7 col-lg-6 col-xl-5 mx-auto"
     title_classes: "display-1 mb-3"

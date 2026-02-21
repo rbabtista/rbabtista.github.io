@@ -4,26 +4,25 @@ header_style: blog-list
 ---
 <div class="content-wrapper">
     <!-- HEADER -->
-    <header class="wrapper bg-light">
-      {% include components/navbar/navbar.html 
-          classList="center-nav transparent navbar-light"
-          centerNav=true
-          logoAlt=true
-          otherClassList="w-100 d-flex ms-auto"
-          otherLanguageSelect=true
-          otherBtn=true
-          otherBtnClassList="btn btn-sm btn-primary rounded-pill"
-          otherBtnText="Contact"
-          otherBtnLink="/contact.html"
+  <header class="position-absolute w-100 pt-1">
+    {% include components/navbar/navbar.html
+    classList="center-nav transparent position-absolute navbar-dark caret-none"
+    logoLight=true
+    logoBoth=true
+    otherClassList="w-100 d-flex ms-auto"
+    otherBtn=true
+    otherBtnClassList= "btn btn-sm btn-white rounded-pill"
+    otherBtnText="Donate"
+    otherBtnLink="https://givebutter.com/wishuponafish"
       %}
     </header>
     <!-- /header -->
-    {% include components/header/header-blog-list.html 
+  {% include components/header/header-blog-list.html
       header_style=layout.header_style
       title=page.title
       subtitle=page.description
    %}
-   
+
 
 
 <section class="wrapper bg-light">
@@ -87,12 +86,11 @@ header_style: blog-list
 </section>
 <!-- /section -->
  <!-- FOOTER -->
-{% include components/footer/footer.html 
-    style="default"
-    bg_color="bg-dark" 
-    text_color="text-inverse"
-    cta=false
-    newsletter=true
+
+  {% include components/footer/footer.html
+  style="default"
+  bg_color="bg-dark"
+  text_color="text-inverse"
   %}
   <!-- /footer -->
   </div>
