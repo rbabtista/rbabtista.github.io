@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "‘Carpe Carpam’: Conservation Through Gastronomy"
-date: 2025-01-15
-last_modified: 2025-03-05
+title: "Mark Morgan Encourages People to Eat MO Carp"
+date: 2026-02-26
+last_modified: 2026-02-26
 author: Jane Smith
 category: Article
 header_style: overlay
 sidebar_position: right
-featured_image: /assets/img/photos/chowder2-1024x768.webp
+header_image: /assets/img/photos/carp.webp
+featured_image: /assets/img/photos/carp.webp
 featured: true
-excerpt: Learn how design thinking has evolved over the past decade and how it is transforming user experiences in the digital age.
-tags:
+excerpt: Powdering Is Mizzou Professor’s Latest Approach to Tackling Invasive Carp
+tags: 
   - UX Design
   - Design Thinking
   - Digital Transformation

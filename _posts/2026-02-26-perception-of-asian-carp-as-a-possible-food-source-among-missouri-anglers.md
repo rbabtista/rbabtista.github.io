@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Perception of Asian carp as a possible food source among Missouri anglers"
-date: 2025-01-15
-last_modified: 2025-03-05  
+date: 2026-02-26
+last_modified: 2026-02-26
 author: Jane Smith
 category: Article
 header_style: overlay
