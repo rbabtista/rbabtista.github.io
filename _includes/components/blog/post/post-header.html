@@ -3,7 +3,7 @@ Post header component
 Props: header_style, header_image, category, title, date, author, comments, likes, excerpt
 {% endcomment %}
 {% assign header_style = page.header_style %}
-{% assign header_image = page.header_image %}
+{% assign header_image = page.header_image | | default: '/assets/img/photos/orange-fish.webp' %}
 {% assign category = page.category %}
 {% assign title = page.title %}
 {% assign date = page.date %}

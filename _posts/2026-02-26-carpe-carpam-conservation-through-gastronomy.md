@@ -3,10 +3,8 @@ layout: post
 title: "‘Carpe Carpam’: Conservation Through Gastronomy"
 date: 2026-02-26
 last_modified: 2026-02-26
-author: Jane Smith
+author: Mark Morgan
 category: Article
-header_style: overlay
-sidebar_position: right
 featured_image: /assets/img/photos/chowder2-1024x768.webp
 featured: true
 excerpt: Learn how design thinking has evolved over the past decade and how it is transforming user experiences in the digital age.

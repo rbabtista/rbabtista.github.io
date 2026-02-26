@@ -40,10 +40,6 @@ pagination:
   enabled: true
   debug: true
   collections:
-    - name: 'projects'
-      per_page: 9
-      permalink: '/projects/page:num/'
-      title: ':title - Page :num'
     - name: 'posts'
       per_page: 6
       permalink: '/blog/page:num/'
@@ -51,9 +47,6 @@ pagination:
 
 # Collections
 collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
   authors:
     output: true
     permalink: /authors/:path/
@@ -69,12 +62,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
-      
 
 # Exclude from processing and watching
 exclude:

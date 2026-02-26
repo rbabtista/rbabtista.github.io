@@ -3,10 +3,8 @@ layout: post
 title: "Mark Morgan Encourages People to Eat MO Carp"
 date: 2026-02-26
 last_modified: 2026-02-26
-author: Jane Smith
+author: Mark Morgan
 category: Article
-header_style: overlay
-sidebar_position: right
 header_image: /assets/img/photos/carp.webp
 featured_image: /assets/img/photos/carp.webp
 featured: true

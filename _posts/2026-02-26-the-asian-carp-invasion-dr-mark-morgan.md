@@ -3,12 +3,10 @@ layout: post
 title: "The Asian Carp Invasion: Dr. Mark Morgan"
 date: 2026-02-26
 last_modified: 2026-02-26
-author: Jane Smith
+author: Mark Morgan
 category: Design
-header_style: overlay
 header_image: /assets/img/photos/bg7.webp
 featured_image: /assets/img/photos/b4.webp
-sidebar_position: right
 excerpt: Brandon Butler and Nathan “Shags” McLeod talk with Dr. Mark Morgan, Professor at The University of Missouri's School of Natural Resources.
 tags: 
   - Web Design

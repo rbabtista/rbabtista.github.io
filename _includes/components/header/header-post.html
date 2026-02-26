@@ -3,7 +3,7 @@
 
 <section class="{{ style.section_classes }}"
   {% if style.overlay %}
-    data-image-src="{{ include.background_image | default: style.default_background_image }}"
+    data-image-src="{{ include.background_image | default: style.default_background_image | default: '/assets/img/photos/orange-fish.webp' }}"
   {% endif %}>
   <div class="container {{ style.container_classes }}">
     <div class="row">

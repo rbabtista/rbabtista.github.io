@@ -3,11 +3,9 @@ layout: post
 title: "Asian Carp to Feed the World"
 date: 2026-02-26
 last_modified: 2026-02-26
-author: Jane Smith
+author: Mark Morgan
 category: Podcast
 featured: true
-header_style: overlay
-sidebar_position: right
 header_image: /assets/img/photos/Asian_Carp_1.webp
 featured_image: /assets/img/photos/Asian_Carp_1.webp
 excerpt: Dr. Mark Morgan, Associate Professor at the School of Natural Resources at the University of Missouri discusses the possibilities of utilizing the vast numbers of Asian carp in the United States to

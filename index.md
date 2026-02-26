@@ -13,7 +13,7 @@ hero:
   bg_class: "wrapper gradient-8 bg-lines"
   title_tag: "h2"
   title_class: "h6 text-uppercase ls-xl text-white mb-5"
-  title: "Welcome to Wish Upon a Fish"
+  title: "Wish Upon a Fish"
   main_title: "Reimagine. Repurpose. Restore."
   main_title_class: "display-1 fs-68 lh-xxs mb-8 text-white"
   buttons:
@@ -32,7 +32,7 @@ about:
   title_class: "fs-16 text-uppercase text-primary mb-3"
   main_title: "Feeding the World, One Fish at a Time"
   main_title_class: "display-3 mb-5"
-  text: "Wish Upon a Fish is a charitable organization that reimagines global malnutrition using Asian carp, an overly abundant but underutilized invasive species in U.S. waterways. Grounded in compassion, environmental stewardship, and pragmatic innovation, this nonprofit aims to fortify the diets of women and children in developing countries with a shelf-stable, protein-rich fish powder. By restoring ecosystems, repurposing overlooked resources, and partnering across sectors, Wish Upon a Fish is more than a creative solution for undernourishment – it’s a moral imperative. Please join us in the fight."
+  text: "<i>Wish Upon a Fish</i> is a charitable organization that reimagines global malnutrition using Asian carp, an overly abundant but underutilized invasive species in U.S. waterways. Grounded in compassion, environmental stewardship, and pragmatic innovation, this nonprofit aims to fortify the diets of women and children in developing countries with a shelf-stable, protein-rich fish powder. By restoring ecosystems, repurposing overlooked resources, and partnering across sectors, <i>Wish Upon a Fish</i> is more than a creative solution for undernourishment – it’s a moral imperative. Please join the fight."
   images:
     - image: "/assets/img/photos/haiti.webp"
       image2x: "/assets/img/photos/haiti.webp"

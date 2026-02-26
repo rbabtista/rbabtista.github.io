@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
+{% assign post_header_style = page.header_style | default: 'overlay' %}
+{% assign post_header_image = page.header_image | default: '/assets/img/photos/orange-fish.webp' %}
+{% if page.header_image == blank and post_header_style == 'standard' %}
+  {% assign post_header_style = 'overlay' %}
+{% endif %}
 <div class="content-wrapper">
   <!-- HEADER -->
   <header class="wrapper bg-soft-primary">
-    {% if page.header_style == 'standard' %}
+    {% if post_header_style == 'standard' %}
       {% include components/navbar/navbar.html 
         classList="center-nav transparent navbar-light"
         centerNav=true
@@ -32,8 +37,8 @@ layout: default
 
   
   {% include components/header/header-post.html 
-    header_style=page.header_style
-    background_image=page.header_image
+    header_style=post_header_style
+    background_image=post_header_image
     category=page.category
     title=page.title
     meta_date=page.date
@@ -46,15 +51,15 @@ layout: default
 
 
   <section class="wrapper bg-light">
-    <div class="container {% if page.header_style == 'standard' %}pb-14 pb-md-16{% else %}py-14 py-md-16{% endif %}">
+    <div class="container {% if post_header_style == 'standard' %}pb-14 pb-md-16{% else %}py-14 py-md-16{% endif %}">
       
-      {% if page.header_style == 'standard' %}
+      {% if post_header_style == 'standard' %}
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <div class="blog single mt-n17">
       {% else %}
-      <div class="row gx-lg-8 gx-xl-12">
-        <div class="col-lg-8 {% if page.sidebar_position == 'left' %}order-lg-2{% endif %}">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
           <div class="blog single">
       {% endif %}
             
@@ -81,8 +86,6 @@ layout: default
                 
                 <hr />
                 {% include components/blog/author.html %}
-                <hr />
-                {% include components/blog/related-posts.html %}
 
                 {% if site.data.theme.disqus.enabled and page.comments != false %}
                   {% include components/blog/disqus-comments.html %}
@@ -92,7 +95,7 @@ layout: default
                   </div>
                 {% endif %}
 
-                {% if page.header_style == 'standard' or page.header_style == 'overlay' %}
+                {% if post_header_style == 'standard' or post_header_style == 'overlay' %}
                   <hr />
                   {% include components/blog/post/post-navigation.html 
                     previous_url=page.previous.url 
@@ -103,12 +106,6 @@ layout: default
             </div>
           </div>
         </div>
-
-        {% unless page.header_style == 'standard' and page.sidebar_position == false %}
-        <aside class="col-lg-4 sidebar mt-11 mt-lg-6 {% if page.sidebar_position == 'left' %}order-lg-1{% endif %}">
-          {% include components/blog/sidebar-widgets.html %}
-        </aside>
-        {% endunless %}
       </div>
     </div>
   </section>

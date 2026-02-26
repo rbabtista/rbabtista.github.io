@@ -3,10 +3,8 @@ layout: post
 title: "Perception of Asian carp as a possible food source among Missouri anglers"
 date: 2026-02-26
 last_modified: 2026-02-26
-author: Jane Smith
+author: Mark Morgan
 category: Article
-header_style: overlay
-sidebar_position: right
 header_image: /assets/img/photos/chowder2-1024x768.webp
 featured_image: /assets/img/photos/chowder2-1024x768.webp
 featured: true

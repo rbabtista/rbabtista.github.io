@@ -3,11 +3,9 @@ layout: post
 title: "Catch the Vision"
 date: 2026-02-26
 last_modified: 2026-02-26
-author: Jane Smith
+author: Mark Morgan
 category: Article
 featured: true
-header_style: overlay
-sidebar_position: right
 #header_image: /assets/img/photos/bg5.webp
 featured_image: /assets/img/photos/mark-fish.webp
 excerpt: Turn invasive Asian carp into a $1 superfood that protects our waters and feeds hungry kids worldwide—one bite at a time.

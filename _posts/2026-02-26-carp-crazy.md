@@ -3,11 +3,9 @@ layout: post
 title: "Carp Crazy"
 date: 2026-02-26
 last_modified: 2026-02-26
-author: Jane Smith
+author: Mark Morgan
 category: Article
 featured: true
-header_style: overlay
-sidebar_position: right
 header_image: /assets/img/photos/orange-fish.webp
 featured_image: /assets/img/photos/orange-fish.webp
 excerpt: Long considered a trash fish, invasive carp are hammering watery ecosystems. And now they are on the verge of disrupting a multibilion-dolar fishing industry. Yet, beneath the half-moon scales, Asian carp pack some of the best aquatic protein going. Is there a way to upcycle our way out of the problem?
