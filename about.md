@@ -57,16 +57,6 @@ services:
       title: Partnerships
       text: "Global problems require global thinking. Addressing the food crisis at home and abroad demands multiple approaches—reimagine fish powder as one of the solutions. Success requires cooperation with domestic and international partners, supported by public and private funding. Let’s do this."
 
-# Team Section
-team:
-  title: "Board of Directors"
-  #  subtitle: "Our Team"
-  bg_color: "bg-light"
-
-team2:
-  title: "Collaborators"
-  #  subtitle: "Our Team"
-  bg_color: "bg-light"
 ---
 
 <div class="content-wrapper">
@@ -87,8 +77,6 @@ team2:
 {% include components/sections/about/hero.html %}
 {% include components/sections/about/who-we-are.html %}
 {% include components/sections/about/services.html %}
-{% include components/sections/about/team.html %}
-{% include components/sections/about/team2.html %}
 
 {% include components/footer/footer.html
 style="default"
