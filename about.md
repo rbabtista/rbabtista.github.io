@@ -10,7 +10,7 @@ scroll_top_btn:
 # Header / Hero Section
 hero:
   title: "Wish Upon a Fish"
-  subtitle: "A US-based nonprofit that uses fish protein powder to fortify the diets of women and children in developing countries"
+  subtitle: "<i>A US-based nonprofit that uses fish protein powder to fortify the diets of women and children in developing countries</i>"
   bg_image: /assets/img/photos/orange-fish.webp
   bg_class: "wrapper gradient-8 bg-lines"
 
@@ -21,15 +21,15 @@ who_we_are:
   text: "About 1 in 9 people worldwide suffer from a low intake of nutrients and vitamins due to carbohydrate rich diets. Protein deficiencies cause poor health outcomes such as anemia, stunting and/or wasting. Fortified foods are the best way to treat and prevent these conditions. Use of invasive species is a promising, but overlooked strategy to address global malnutrition. The Mississippi River and its tributaries hold an enormous supply of Asian carp that are available for humanitarian aid. Fish powder is a healthy and cost-effective way to fortify local foods, thus increasing the nutritional benefits of women and children in developing countries."
   icon: "megaphone"
   images:
+    - src: /assets/img/photos/powder.webp
+      src2x: /assets/img/photos/powder.webp
     - src: /assets/img/photos/Asian_Carp_1.webp
       src2x: /assets/img/photos/Asian_Carp_1.webp
-    - src: /assets/img/photos/carp.webp
-      src2x: /assets/img/photos/carp.webp
 
 services:
   bg_class: "wrapper bg-dark text-inverse"
   title_tag: "Rationale"
-  title_class: "fs-16 text-uppercase text-white mb-3"
+  title_class: "fs-24 text-uppercase text-yellow mb-3"
   main_title: "Why fish powder? It's a practical, compassionate, and scalable solution."
   main_title_class: "display-3 text-white mb-10"
   service_items:

@@ -1,7 +1,7 @@
 ---
 layout: blog/standard
-title: Resources
-description: Welcome to our resources. Here you can learn more about our work.
+title: News
+description: Recent news of Wish Upon a Fish. Here you can learn more about our work.
 pagination:
   enabled: true
 ---

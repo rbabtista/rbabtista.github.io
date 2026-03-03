@@ -1,5 +1,6 @@
 # General Settings
 site_name: Wish Upon a Fish
+company_name: "Wish Upon a Fish"
 title: "Wish Upon a Fish"
 description: >- # this means to ignore newlines until "baseurl:"
   A US-based nonprofit that uses fish protein powder to fortify the diets of women and children in developing countries.
@@ -26,7 +27,7 @@ black_logo_2x: "/assets/img/logo-dark@2x.webp"
 light_logo_1x: "/assets/img/logo-light.webp"
 light_logo_2x: "/assets/img/logo-light@2x.webp"
 
-address: '1809 Limerick Ln, Columbia, MO 65202, United States'
+address: '1809 Limerick Ln, Columbia, MO 65203, United States'
 email: "markmorgan@missouri.edu"
 
 

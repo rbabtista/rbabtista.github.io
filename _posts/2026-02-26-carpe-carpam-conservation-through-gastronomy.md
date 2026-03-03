@@ -8,10 +8,6 @@ category: Article
 featured_image: /assets/img/photos/chowder2-1024x768.webp
 featured: true
 excerpt: Learn how design thinking has evolved over the past decade and how it is transforming user experiences in the digital age.
-tags:
-  - UX Design
-  - Design Thinking
-  - Digital Transformation
 ---
 
 ## The Evolution of Design Thinking

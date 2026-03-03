@@ -1,7 +1,7 @@
 <section class="{{ page.hero.bg_class }} position-relative overflow-hidden">
 
   <!-- Background image layer (same as code 1) -->
-  <figure class="position-absolute w-100 h-100 m-0"
+  <figure class="position-absolute w-100 h-75 m-0"
           style="inset: 0; z-index: 1;">
     <img alt=""
          class="w-100 h-100"
@@ -10,22 +10,19 @@
   </figure>
 
   <!-- Optional: dark overlay for readability (same as code 1) -->
-  <div class="position-absolute w-100 h-100"
+  <div class="position-absolute w-100 h-75"
        style="inset: 0; background: rgba(0,0,0,.35); z-index: 1;"></div>
 
   <!-- Content layer (your code 2 content, moved above bg) -->
   <div class="container pt-17 pt-md-19 pb-21 pb-lg-23 text-center position-relative"
        style="z-index: 2;">
     <div class="row">
-      <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto"
-           data-cues="zoomIn" data-delay="500" data-group="page-title" data-interval="-200">
-        <{{ page.hero.title_tag }} class="{{ page.hero.title_class }} text-white">
-        {{ page.hero.title }}
-      </{{ page.hero.title_tag }}>
 
-      <h1 class="{{ page.hero.main_title_class }} text-white">
-        {{ page.hero.main_title }}
-      </h1>
+      <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto mb-8"
+           data-cues="zoomIn" data-delay="500" data-group="page-title" data-interval="-200">
+        <h1 class="display-1 mb-4 text-white">{{ page.hero.title }}</h1>
+        <p class="display-1 fs-28 lh-xs mb-10 text-white">{{ page.hero.main_title }}</p>
+      </div>
 
       <div class="d-flex justify-content-center mb-4"
            data-cues="zoomIn" data-delay="900" data-group="page-title-buttons">
@@ -34,6 +31,5 @@
         {% endfor %}
       </div>
     </div>
-  </div>
   </div>
 </section>

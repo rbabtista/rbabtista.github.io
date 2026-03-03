@@ -22,7 +22,7 @@ contact_card:
   contact_info:
     - icon: "location-pin-alt"
       title: "Address"
-      content: '1809 Limerick Ln <br class="d-none d-md-block" /> Columbia, MO, United States <br class="d-none d-md-block" /> 65202'
+      content: '1809 Limerick Ln <br class="d-none d-md-block" /> Columbia, MO, United States <br class="d-none d-md-block" /> 65203'
     #    - icon: "phone-volume"
     #      title: "Phone"
     #      content: "00 (123) 456 78 90 <br />00 (987) 654 32 10"

@@ -6,63 +6,10 @@ last_modified: 2026-02-26
 author: Mark Morgan
 category: Article
 featured: true
-header_image: /assets/img/photos/orange-fish.webp
-featured_image: /assets/img/photos/orange-fish.webp
+#header_image: /assets/img/photos/orange-fish.webp
+featured_image: /assets/img/photos/mark-fish.webp
 excerpt: Long considered a trash fish, invasive carp are hammering watery ecosystems. And now they are on the verge of disrupting a multibilion-dolar fishing industry. Yet, beneath the half-moon scales, Asian carp pack some of the best aquatic protein going. Is there a way to upcycle our way out of the problem?
-tags: 
-  - UX Design
-  - Design Thinking
-  - Digital Transformation
 ---
+Long considered a trash fish, invasive carp are hammering watery ecosystems. And now they are on the verge of disrupting a multibilion-dolar fishing industry. Yet, beneath the half-moon scales, Asian carp pack some of the best aquatic protein going. Is there a way to upcycle our way out of the problem?
 
-## The Evolution of Design Thinking
-
-Design thinking has evolved significantly over the past decade. What was once a methodology primarily used by designers
-has now become a fundamental approach to problem-solving across various industries. In the digital age, design thinking
-has become essential for creating meaningful user experiences.
-
-### User-Centered Design Principles
-
-At the core of design thinking is a deep understanding of user needs. Companies that excel in digital transformation
-place the user at the center of their design process. This approach involves:
-
-- **Empathize**: Understand the needs and challenges of your users
-- **Define**: Clearly articulate the problem from the user's perspective
-- **Ideate**: Generate creative solutions to address the defined problems
-- **Prototype**: Build representations of potential solutions
-- **Test**: Evaluate prototypes with actual users
-
-### The Impact on Business Success
-
-Organizations that embrace design thinking see significant returns on their investment. According to a study by the
-Design Management Institute, design-led companies outperformed the S&P 500 by 219% over a 10-year period. This shows the
-tangible business value of investing in thoughtful design processes.
-
-## Implementing Design Thinking in Digital Projects
-
-Incorporating design thinking into digital projects requires a shift in organizational culture. Cross-functional teams
-need to collaborate effectively, breaking down silos between departments. This collaborative approach ensures that all
-aspects of the user experience are considered, from technical feasibility to business viability.
-
-### Practical Strategies for Implementation
-
-1. **Start with leadership buy-in**: Ensure leadership understands the value of design thinking
-2. **Build cross-functional teams**: Include members from various departments in the design process
-3. **Create a safe space for experimentation**: Allow teams to test ideas without fear of failure
-4. **Invest in proper tools**: Provide teams with the resources they need to prototype and test effectively
-5. **Measure and iterate**: Use data to continuously improve the user experience
-
-## Looking to the Future
-
-As digital technologies continue to evolve, design thinking will become even more important. Emerging technologies like
-AI, AR/VR, and voice interfaces present new challenges and opportunities for creating intuitive user experiences. The
-organizations that apply design thinking principles to these emerging technologies will be better positioned to succeed
-in the digital future.
-
-The most successful companies will be those that not only adopt design thinking as a methodology but integrate it into
-their core business strategy. When design thinking becomes part of an organization's DNA, innovation becomes a natural
-outcome rather than a forced initiative.
-
-As we navigate the complexities of the digital landscape, design thinking provides a human-centered compass that keeps
-users at the heart of technological advancement. After all, the most successful digital products and services are those
-that truly solve real human problems.
+Read the full article <a href="https://drive.google.com/file/d/1vkEJKCdUEOaUzjSCFLzDO7hcXznFO8vr/view?usp=share_link" target="_blank">here</a>.
