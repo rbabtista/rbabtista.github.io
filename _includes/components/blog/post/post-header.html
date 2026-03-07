@@ -20,7 +20,7 @@ Props: header_style, header_image, category, title, date, author, comments, like
       <div class="col-md-10 col-xl-8 mx-auto">
         <div class="post-header">
           <div class="post-category text-line text-white">
-            <a href="/blog/category/{{ category | slugify }}/" class="text-reset" rel="category">{{ category }}</a>
+            <a href="/news/category/{{ category | slugify }}/" class="text-reset" rel="category">{{ category }}</a>
           </div>
           <h1 class="display-1 mb-4 text-white">{{ title }}</h1>
           <ul class="post-meta text-white">
@@ -41,11 +41,11 @@ Props: header_style, header_image, category, title, date, author, comments, like
       <div class="col-md-10 col-xl-8 mx-auto">
         <div class="post-header">
           <div class="post-category text-line">
-            <a href="/blog/category/{{ category | slugify }}/" class="hover" rel="category">{{ category }}</a>
+            <a href="/news/category/{{ category | slugify }}/" class="hover" rel="category">{{ category }}</a>
           </div>
           <h1 class="display-1 mb-4">{{ title }}</h1>
           <ul class="post-meta mb-5">
-            <li class="post-date"><i class="uil uil-calendar-alt"></i><a href="/blog/{{ date | date: '%Y' }}/{{ date | date: '%m' }}/" class="hover"><span>{{ date | date: "%d %b %Y" }}</span></a></li>
+            <li class="post-date"><i class="uil uil-calendar-alt"></i><a href="/news/{{ date | date: '%Y' }}/{{ date | date: '%m' }}/" class="hover"><span>{{ date | date: "%d %b %Y" }}</span></a></li>
             <li class="post-author"><a href="/authors/{{ author | slugify }}"><i class="uil uil-user"></i><span>By {{ author }}</span></a></li>
             {% if comments %}<li class="post-comments"><a href="#comments"><i class="uil uil-comment"></i>{{ comments }}<span> Comments</span></a></li>{% endif %}
             {% if likes %}<li class="post-likes"><a href="#"><i class="uil uil-heart-alt"></i>{{ likes }}<span> Likes</span></a></li>{% endif %}

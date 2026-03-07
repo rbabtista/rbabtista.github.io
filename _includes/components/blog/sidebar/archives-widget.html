@@ -7,7 +7,7 @@
       {% capture month %}{{ date | date: '%B %Y' }}{% endcapture %}
       {% capture month_url %}{{ date | date: '%Y/%m' }}{% endcapture %}
       {% unless archive_dates contains month %}
-        <li><a href="/blog/{{ month_url }}/">{{ month }}</a></li>
+        <li><a href="/news/{{ month_url }}/">{{ month }}</a></li>
         {% capture archive_dates %}{{ archive_dates }}|{{ month }}{% endcapture %}
       {% endunless %}
     {% endfor %}

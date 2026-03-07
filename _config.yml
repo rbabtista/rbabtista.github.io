@@ -3,8 +3,8 @@ url: ""
 
 # Build settings
 markdown: kramdown
-#permalink: /blog/:year/:month/:day/:title/
-permalink: /blog/:title/
+#permalink: /news/:year/:month/:day/:title/
+permalink: /news/:title/
 sass:
   style: compressed
   sass_dir: _sass
@@ -42,7 +42,7 @@ pagination:
   collections:
     - name: 'posts'
       per_page: 6
-      permalink: '/blog/page:num/'
+      permalink: '/news/page:num/'
       title: ':title - Page :num'
 
 # Collections
@@ -102,7 +102,7 @@ jekyll-archives:
     tag: blog/archive-tag
     category: blog/archive-category
   permalinks:
-    year: '/blog/:year/'
-    month: '/blog/:year/:month/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+    year: '/news/:year/'
+    month: '/news/:year/:month/'
+    tag: '/news/tag/:name/'
+    category: '/news/category/:name/'

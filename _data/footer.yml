@@ -28,7 +28,7 @@ column_3:
     - title: About
       url: /about
     - title: News
-      url: /blog
+      url: /news
     - title: Donate
       url: https://givebutter.com/wishuponafish
     - title: Contact

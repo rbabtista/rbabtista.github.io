@@ -46,7 +46,7 @@ header_style: blog-list
               <div class="card-body">
                 <div class="post-header">
                   <div class="post-category text-line">
-                    <a href="/blog/category/{{ post.category | slugify }}/" class="hover" rel="category">{{ post.category }}</a>
+                    <a href="/news/category/{{ post.category | slugify }}/" class="hover" rel="category">{{ post.category }}</a>
                   </div>
                   <!-- /.post-category -->
                   <h2 class="post-title mt-1 mb-0"><a class="link-dark" href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -89,9 +89,9 @@ header_style: blog-list
               {% if page == paginator.page %}
               <li class="page-item active"><a class="page-link" href="#">{{ page }}</a></li>
               {% elsif page == 1 %}
-              <li class="page-item"><a class="page-link" href="{{ '/blog/tag/' | append: page.tag | append: '/' | relative_url }}">{{ page }}</a></li>
+              <li class="page-item"><a class="page-link" href="{{ '/news/tag/' | append: page.tag | append: '/' | relative_url }}">{{ page }}</a></li>
               {% else %}
-              <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: '/blog/tag/' | append: page.tag | append: '/' | replace: ':num', page }}">{{ page }}</a></li>
+              <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: '/news/tag/' | append: page.tag | append: '/' | replace: ':num', page }}">{{ page }}</a></li>
               {% endif %}
             {% endfor %}
             

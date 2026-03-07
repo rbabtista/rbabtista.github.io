@@ -9,6 +9,11 @@ featured: true
 header_image: /assets/img/photos/something.webp
 featured_image: /assets/img/photos/something.webp
 excerpt: Something’s Fishy is a simple story that describes a complex issue, the introduction and spread of invasive carp in the Mississippi River and its tributaries. What started out as a management solution has turned into an ecological nightmare. It could get worse. If bighead and silver carp enter the Great Lakes, they would likely disrupt a multi-billion dollar commercial and recreational fishing industry. However, the situation could improve if people at home and abroad learned how to eat them. Although not a permanent fix, consumption is a healthy and delicious way to address this problem. Bon appétit.
+tags:
+  - Asian Carp
+  - Invasive Species
+  - Children's Book
+  - Food Security
 ---
 
 ## About Something’s Fishy!

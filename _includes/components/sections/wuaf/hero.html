@@ -20,7 +20,7 @@
       <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto"
            data-cues="zoomIn" data-delay="500" data-group="page-title" data-interval="-200">
         <h1 class="display-1 mb-4 text-white">{{ page.hero.title }}</h1>
-        <p class="display-1 fs-28 lh-xs mb-6 text-white">{{ page.hero.main_title }}</p>
+        <p class="{{ page.hero.main_title_class }}">{{ page.hero.main_title }}</p>
 
         <div class="d-flex justify-content-center gap-3 flex-wrap"
              data-cues="zoomIn" data-delay="900" data-group="page-title-buttons">

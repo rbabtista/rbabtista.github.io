@@ -10,7 +10,7 @@ scroll_top_btn:
 # Header / Hero Section
 hero:
   title: "Wish Upon a Fish"
-  subtitle: "<i>A US-based nonprofit that uses fish protein powder to fortify the diets of women and children in developing countries</i>"
+  subtitle: "Reimagine. Repurpose. Restore."
   bg_image: /assets/img/photos/orange-fish.webp
   bg_class: "wrapper gradient-8 bg-lines"
 

@@ -7,7 +7,7 @@ Post footer component — Self-contained version using page.* variables directly
     <ul class="list-unstyled tag-list mb-0">
       {% for tag in page.tags %}
       <li>
-        <a href="/blog/tag/{{ tag | slugify }}/" class="btn btn-soft-ash btn-sm rounded-pill mb-0">{{ tag }}</a>
+        <a href="/news/tag/{{ tag | slugify }}/" class="btn btn-soft-ash btn-sm rounded-pill mb-0">{{ tag }}</a>
       </li>
       {% endfor %}
     </ul>
